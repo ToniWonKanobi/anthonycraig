@@ -16,6 +16,10 @@ a {
 	text-decoration: none;
 }
 
+a#resume {
+	color: mediumseagreen;
+}
+
 a#dent {
 	color: rebeccapurple;
 }
