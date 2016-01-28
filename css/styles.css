@@ -3,7 +3,7 @@ body {
 	background: cornflowerblue;
 	color: white;
 	font-family: "Whitney SSm A", "Whitney SSm B", "Avenir", sans-serif;
-	font-size: 10vw;
+	font-size: 225%
 	font-style: normal;
 	font-weight: 700;
 }
@@ -38,4 +38,13 @@ a#instagram {
 
 a#email {
 	color: yellow;
+}
+
+@media (max-width: 1100px) {
+
+	html,
+	body {
+		font-size: 10vw;
+	}
+
 }
