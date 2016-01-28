@@ -1,0 +1,41 @@
+html,
+body {
+	background: cornflowerblue;
+	color: white;
+	font-family: "Whitney SSm A", "Whitney SSm B", "Avenir", sans-serif;
+	font-size: 225%;
+	font-style: normal;
+	font-weight: 700;
+}
+
+p {
+	margin: 0.25em;
+}
+
+a {
+	text-decoration: none;
+}
+
+a#dent {
+	color: rebeccapurple;
+}
+
+a#nerd {
+	color: indianred;
+}
+
+a#blogger {
+	color: orange;
+}
+
+a#twitter {
+	color: navy;
+}
+
+a#instagram {
+	color: saddlebrown;
+}
+
+a#email {
+	color: yellow;
+}
