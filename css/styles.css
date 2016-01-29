@@ -2,14 +2,23 @@ html,
 body {
 	background: cornflowerblue;
 	color: white;
-	font-family: "Whitney SSm A", "Whitney SSm B", "Avenir", sans-serif;
-	font-size: 225%;
-	font-style: normal;
-	font-weight: 700;
 }
 
-p {
+main {
+	font-family: "Archer Heavyweight A", "Archer Heavyweight B", "Avenir", sans-serif;
+	font-size: 400%;
+	font-style: normal;
+	font-weight: 900;
 	margin: 0.25em;
+}
+
+main p {
+	margin-top: 0;
+}
+
+main#resumepage {
+	font-size: 125%;
+	font-weight: 700;
 }
 
 a {
@@ -48,7 +57,7 @@ a#email {
 	color: yellow;
 }
 
-section.example {
+div.example {
 	align-items: center;
 	display: flex;
 	flex-wrap: wrap;
@@ -56,8 +65,7 @@ section.example {
 
 @media (max-width: 1100px) {
 
-	html,
-	body {
+	main {
 		font-size: 10vw;
 	}
 
