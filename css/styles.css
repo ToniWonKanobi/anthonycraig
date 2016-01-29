@@ -21,6 +21,11 @@ main#resumepage {
 	font-weight: 700;
 }
 
+h2 {
+	font-weight: 900;
+	margin: 1em auto 0 auto;
+}
+
 a {
 	text-decoration: none;
 }
@@ -57,16 +62,38 @@ a#email {
 	color: yellow;
 }
 
+li {
+	margin: 0.5em auto 0.5em auto;
+	padding-left: 0.5em;
+}
+
 div.example {
 	align-items: center;
 	display: flex;
-	flex-wrap: wrap;
+}
+
+div.example img,
+div.example p {
+	width: 50%
+}
+
+div.example p {
+	padding: 0.5em;
 }
 
 @media (max-width: 1100px) {
 
 	main {
 		font-size: 10vw;
+	}
+	
+	div.example {
+		flex-wrap: wrap;
+	}
+
+	div.example img,
+	div.example p {
+		width: 100%;
 	}
 
 }
