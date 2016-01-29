@@ -44,6 +44,10 @@ a#email {
 	color: yellow;
 }
 
+section {
+	display: flex;
+}
+
 @media (max-width: 1100px) {
 
 	html,
