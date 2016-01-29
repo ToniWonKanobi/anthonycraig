@@ -48,7 +48,7 @@ a#email {
 	color: yellow;
 }
 
-section {
+section.example {
 	align-items: center;
 	display: flex;
 	flex-wrap: wrap;
