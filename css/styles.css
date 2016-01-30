@@ -86,11 +86,15 @@ div.example {
 
 div.example img,
 div.example p {
-	width: 50%
+	width: 50%;
+}
+
+div.example img {
+	padding: 0 2em 2em 0;
 }
 
 div.example p {
-	padding: 0.5em;
+	padding: 1em 0 1em 0;
 }
 
 footer {
@@ -110,6 +114,10 @@ footer {
 	div.example img,
 	div.example p {
 		width: 100%;
+	}
+	
+	div.example img {
+		padding: initial;
 	}
 
 }
