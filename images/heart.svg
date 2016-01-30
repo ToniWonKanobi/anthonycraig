@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="380px" height="380px" viewBox="0 0 380 380" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.1 (25234) - http://www.bohemiancoding.com/sketch -->
+    <title>Safari Pinned Tabs</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Safari-Pinned-Tabs" sketch:type="MSLayerGroup">
+            <circle id="Circle" fill="#000000" sketch:type="MSShapeGroup" cx="190" cy="190" r="190"></circle>
+            <g id="Heart" transform="translate(71.000000, 95.000000)" fill="#FFFFFF" sketch:type="MSShapeGroup">
+                <path d="M119.156553,213.576548 L119.156558,31.3962748 C119.156558,31.3962748 90.7366716,-17.3946101 41.8183937,6.66994056 C-7.09988433,30.7344912 -9.53089976,81.6500048 16.1437475,125.515567 C41.8183948,169.381128 119.156553,213.576548 119.156553,213.576548 Z" id="Left"></path>
+                <path d="M237.71086,213.576548 L237.710865,31.3962748 C237.710865,31.3962748 209.290979,-17.3946101 160.372701,6.66994056 C111.454423,30.7344912 109.023407,81.6500048 134.698055,125.515567 C160.372702,169.381128 237.71086,213.576548 237.71086,213.576548 Z" id="Right" transform="translate(178.132586, 106.788274) scale(-1, 1) translate(-178.132586, -106.788274) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
