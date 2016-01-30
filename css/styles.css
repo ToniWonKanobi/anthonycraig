@@ -13,9 +13,11 @@ main {
 }
 
 main p {
-
-	line-height: 1.5;
 	margin-top: 0;
+}
+
+body#resumepage p {
+	line-height: 1.5;
 }
 
 a {
