@@ -13,15 +13,50 @@ body#resumepage {
 	font-family: "Archer SSm A", "Archer SSm B", Avenir, sans-serif;
 	font-size: 125%;
 	font-style: initial;
-	font-weight: 600;
+	font-weight: 500;
+}
+
+body#pagenotfound {
+	background: blue;
+	font-family: Courier;
+	font-size: initial;
+	font-style: normal;
+	font-weight: initial;
+	margin: 4em auto;
+	max-width: 800px;
+	width: 80%;
+}
+
+body#pagenotfound h2 {
+	display: block;
+	background: white;
+	color: blue;
+	margin: 1em auto 0.5em auto;
+	text-transform: uppercase;
+	text-align: center;
+	width: 250px;
+}
+
+body#pagenotfound li {
+	list-style-type: disc;
+}
+
+body#pagenotfound p:last-of-type {
+	margin-top: 2em;
+	text-align: center;
+}
+
+body#pagenotfound a {
+	color: white;
 }
 
 body#resumepage h2 {
 	border-bottom: 0.1em dotted white;
 	border-left: 0.1em dotted white;
 	font-size: 250%;
+	font-weight: 800;
 	margin-top: 1em;
-	padding: 0 0 0.1em 0.25em;
+	padding: 0 0 0.1em 0.4em;
 }
 
 body#resumepage section#education h2 {
@@ -41,7 +76,11 @@ main p {
 }
 
 body#resumepage p {
-	line-height: 1.5;
+	line-height: 1.6;
+}
+
+h2 b {
+	font-weight: 800;
 }
 
 a {
@@ -51,6 +90,7 @@ a {
 body#resumepage a {
 	color: inherit;
 	border-bottom: 0.1em dotted white;
+	padding-bottom: 0.1em;
 }
 
 a#resume {
