@@ -8,8 +8,31 @@ body {
 	max-width: 1000px;
 }
 
+body#resumepage {
+	background: darkgray;
+	font-size: 125%;
+	font-weight: 700;
+}
+
+body#resumepage h2 {
+	border-bottom: 0.1em dotted white;
+	border-left: 0.1em dotted white;
+	font-size: 250%;
+	font-weight: 900;
+	margin-top: 1em;
+	padding: 0 0 0.1em 0.25em;
+}
+
+body#resumepage section#education h2 {
+	margin-top: initial;
+}
+
 main {
 	margin: 0.25em;
+}
+
+body#resumepage main {
+	padding: 1em;
 }
 
 main p {
@@ -22,6 +45,11 @@ body#resumepage p {
 
 a {
 	text-decoration: none;
+}
+
+body#resumepage a {
+	color: inherit;
+	border-bottom: 0.1em dotted white;
 }
 
 a#resume {
@@ -50,34 +78,6 @@ a#instagram {
 
 a#email {
 	color: yellow;
-}
-
-body#resumepage {
-	background: darkgray;
-	font-size: 125%;
-	font-weight: 700;
-}
-
-body#resumepage main {
-	padding: 1em;
-}
-
-body#resumepage a {
-	color: inherit;
-	border-bottom: 0.1em dotted white;
-}
-
-h2 {
-	border-bottom: 0.1em dotted white;
-	border-left: 0.1em dotted white;
-	font-size: 250%;
-	font-weight: 900;
-	margin-top: 1em;
-	padding: 0 0 0.1em 0.25em;
-}
-
-section#education h2 {
-	margin-top: initial;
 }
 
 li {
