@@ -116,6 +116,14 @@ footer {
 	text-align: center;
 }
 
+body#resumepage p#backhome {
+	padding: 0 0 2em 0;
+}
+
+p#copyright {
+	font-size: initial;
+}
+
 @media (max-width: 1100px) {
 
 	body {
