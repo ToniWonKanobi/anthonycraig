@@ -12,7 +12,6 @@ body#resumepage {
 	background: gray;
 	font-family: "Archer SSm A", "Archer SSm B", Avenir, sans-serif;
 	font-size: 125%;
-	font-style: initial;
 	font-weight: 500;
 }
 
@@ -163,6 +162,7 @@ body#resumepage p#backhome {
 
 p#copyright {
 	font-size: initial;
+	margin-top: 10em;
 }
 
 @media (max-width: 740px) {
