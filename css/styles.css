@@ -103,7 +103,7 @@ a#dent {
 }
 
 a#nerd {
-	color: indianred;
+	color: rgba(139, 0, 0, 0.75);
 }
 
 a#blogger {
