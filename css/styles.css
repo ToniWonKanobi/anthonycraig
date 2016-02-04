@@ -62,7 +62,8 @@ body#resumepage section#education h2 {
 	margin-top: initial;
 }
 
-main {
+main,
+footer {
 	margin: 0.25em;
 }
 
