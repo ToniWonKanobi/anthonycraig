@@ -66,7 +66,8 @@ main {
 	margin: 0.25em;
 }
 
-body#resumepage main {
+body#resumepage main,
+body#resumepage footer {
 	padding: 1em;
 }
 
@@ -129,31 +130,24 @@ li {
 div.example {
 	align-items: center;
 	display: flex;
+	justify-content: space-around;
 }
 
 div.example img,
 div.example p {
-	width: 50%;
+	margin: 1em;
+	width: 45%;
 }
 
 div.example img {
-	-webkit-filter: blur(10px);
-	padding: 0 2em 2em 0;
+	-webkit-filter: blur(5px);
 	transition: all 0.25s ease-in-out;
 }
 
 div.example img:hover,
 div.example img:focus {
 	-webkit-filter: none;
-	
-}
 
-div.example p {
-	padding: 1em 0 1em 0;
-}
-
-footer {
-	text-align: center;
 }
 
 body#resumepage p#backhome {
@@ -170,18 +164,19 @@ p#copyright {
 	body {
 		font-size: 10vw;
 	}
-	
+
 	div.example {
 		flex-wrap: wrap;
 	}
 
 	div.example img,
 	div.example p {
+		margin: initial;
 		width: 100%;
 	}
-	
-	div.example img {
-		padding: initial;
+
+	div.example p {
+		margin: 1em auto 1em auto;
 	}
 
 }
