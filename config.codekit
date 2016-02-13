@@ -40,9 +40,9 @@
 		"outputAbbreviatedPath": "\/css\/valentines2016.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
+		"outputStyle": 1,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
 		"useLibsass": false
 		},
 	"\/fonts\/417437\/04C362835F2BBB2A6.css": {
