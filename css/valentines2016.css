@@ -20,13 +20,13 @@ body {
     margin: 5vw auto;
     padding: 1vh;
     text-align: center; }
-    body main * {
+    body main *:not(.heart-container) {
       background: white;
       padding: 0.5em;
       transition: all 200ms ease-out; }
-      body main *:nth-child(odd):hover, body main *:nth-child(odd):focus {
+      body main *:not(.heart-container):nth-child(odd):hover, body main *:not(.heart-container):nth-child(odd):focus {
         transform: rotate(1deg); }
-      body main *:nth-child(even):hover, body main *:nth-child(even):focus {
+      body main *:not(.heart-container):nth-child(even):hover, body main *:not(.heart-container):nth-child(even):focus {
         transform: rotate(-1deg); }
   body .heart-container {
     padding: 1em 0.5em 1em 0.5em;
