@@ -24,17 +24,17 @@ body main {
   padding: 1vh;
   text-align: center;
 }
-body main *:not(.heart-container) {
+body main > *:not(.heart-container) {
   background: white;
   padding: 0.5em;
   -webkit-transition: all 200ms ease-out;
   transition: all 200ms ease-out;
 }
-body main *:not(.heart-container):nth-child(odd):hover, body main *:not(.heart-container):nth-child(odd):focus {
+body main > *:not(.heart-container):nth-child(odd):hover, body main > *:not(.heart-container):nth-child(odd):focus {
   -webkit-transform: rotate(1deg);
           transform: rotate(1deg);
 }
-body main *:not(.heart-container):nth-child(even):hover, body main *:not(.heart-container):nth-child(even):focus {
+body main > *:not(.heart-container):nth-child(even):hover, body main > *:not(.heart-container):nth-child(even):focus {
   -webkit-transform: rotate(-1deg);
           transform: rotate(-1deg);
 }
