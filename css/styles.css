@@ -51,11 +51,9 @@ body#pagenotfound a {
 
 body#resumepage h2 {
 	border-bottom: 0.1em dotted white;
-	border-left: 0.1em dotted white;
 	font-size: 250%;
 	font-weight: 800;
-	margin-top: 1em;
-	padding: 0 0 0.1em 0.4em;
+	margin: 0.5em 0 0.5em 0;
 }
 
 body#resumepage section#education h2 {
@@ -131,18 +129,22 @@ li {
 div.example {
 	align-items: center;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 div.example img,
 div.example p {
-	margin: 1em;
-	width: 45%;
+	margin-bottom: 1em;
 }
 
 div.example img {
 	-webkit-filter: blur(5px);
 	transition: all 0.25s ease-in-out;
+	width: 45%;
+}
+
+div.example p {
+	width: 50%;
 }
 
 div.example img:hover,
