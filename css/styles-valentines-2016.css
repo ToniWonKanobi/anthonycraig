@@ -13,34 +13,28 @@ body {
   font-weight: bold;
   font-style: italic;
 }
-body a {
-  color: inherit;
-  text-decoration: none;
-}
-body main {
+
+main {
   width: 80%;
   max-width: 800px;
   margin: 5vw auto;
   padding: 1vh;
   text-align: center;
 }
-body main > *:not(.heart-container) {
+main a {
+  color: inherit;
+  text-decoration: none;
+}
+main * {
   background: white;
   padding: 0.5em;
-  -webkit-transition: all 200ms ease-out;
-  transition: all 200ms ease-out;
 }
-body main > *:not(.heart-container):nth-child(odd):hover, body main > *:not(.heart-container):nth-child(odd):focus {
-  -webkit-transform: rotate(1deg);
-          transform: rotate(1deg);
-}
-body main > *:not(.heart-container):nth-child(even):hover, body main > *:not(.heart-container):nth-child(even):focus {
-  -webkit-transform: rotate(-1deg);
-          transform: rotate(-1deg);
-}
-body .heart-container {
-  padding: 1em 0.5em 1em 0.5em;
-  margin-top: 1em auto 1em auto;
+
+.heart-container {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: white;
   display: -webkit-box;
   display: -webkit-flex;
@@ -57,31 +51,30 @@ body .heart-container {
   -webkit-justify-content: space-around;
       -ms-flex-pack: distribute;
           justify-content: space-around;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  margin-top: 1em auto 1em auto;
 }
-body .heart-container h2 {
+.heart-container h2 {
   width: 40%;
   color: rgba(255, 0, 0, 0.65);
 }
-body .heart-container img {
+.heart-container img {
   -webkit-animation: heartbeat 0.9s infinite;
           animation: heartbeat 0.9s infinite;
   width: 50%;
   color: rgba(255, 0, 0, 0.65);
 }
-body p {
+.heart-container p {
   font-size: x-large;
 }
-body footer p {
+
+footer p {
   color: white;
   font-size: x-small;
+  margin: auto;
   text-align: center;
   width: 200px;
-  margin: auto;
 }
+
 @-webkit-keyframes heartbeat {
   0% {
     -webkit-transform: scale(0.75);
@@ -108,6 +101,7 @@ body footer p {
             transform: scale(0.75);
   }
 }
+
 @keyframes heartbeat {
   0% {
     -webkit-transform: scale(0.75);
@@ -135,7 +129,7 @@ body footer p {
   }
 }
 @media (max-width: 740px) {
-  body .heart-container h2, body .heart-container img {
+  .heart-container h2, .heart-container img {
     width: 100%;
   }
 }

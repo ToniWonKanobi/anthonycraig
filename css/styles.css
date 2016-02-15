@@ -1,185 +1,59 @@
 body {
-	background: cornflowerblue;
-	color: white;
-	font-family: "Archer Heavyweight A", "Archer Heavyweight B", "Avenir", sans-serif;
-	font-size: 400%;
-	font-style: normal;
-	font-weight: 900;
-	max-width: 1000px;
-}
-
-body#resumepage {
-	background: gray;
-	font-family: "Archer SSm A", "Archer SSm B", Avenir, sans-serif;
-	font-size: 125%;
-	font-weight: 500;
-}
-
-body#pagenotfound {
-	background: blue;
-	font-family: Courier;
-	font-size: initial;
-	font-style: normal;
-	font-weight: initial;
-	margin: 4em auto;
-	max-width: 800px;
-	width: 80%;
-}
-
-body#pagenotfound h2 {
-	display: block;
-	background: white;
-	color: blue;
-	margin: 1em auto 0.5em auto;
-	text-transform: uppercase;
-	text-align: center;
-	width: 250px;
-}
-
-body#pagenotfound li {
-	list-style-type: disc;
-}
-
-body#pagenotfound p:last-of-type {
-	margin-top: 2em;
-	text-align: center;
-}
-
-body#pagenotfound a {
-	color: white;
-}
-
-body#resumepage h2 {
-	border-bottom: 0.1em dotted white;
-	font-size: 250%;
-	font-weight: 800;
-	margin: 0.5em 0 0.5em 0;
-}
-
-body#resumepage section#education h2 {
-	margin-top: initial;
+  background: cornflowerblue;
+  color: white;
+  font-family: "Archer Heavyweight A", "Archer Heavyweight B", "Avenir", sans-serif;
+  font-size: 500%;
+  font-weight: 900;
+  max-width: 800px;
 }
 
 main,
 footer {
-	margin: 0.25em;
+  margin: 0.25em;
 }
 
-body#resumepage main,
-body#resumepage footer {
-	padding: 1em;
-}
-
-main p {
-	margin-top: 0;
-}
-
-body#resumepage p {
-	line-height: 1.6;
-}
-
-h2 b {
-	font-weight: 800;
+p {
+  margin-top: 0;
 }
 
 a {
-	text-decoration: none;
-}
-
-body#resumepage a {
-	color: inherit;
-	border-bottom: 0.1em dotted white;
-	padding-bottom: 0.1em;
+  text-decoration: none;
 }
 
 a#resume {
-	color: yellowgreen;
+  color: yellowgreen;
 }
 
 a#dent {
-	color: rebeccapurple;
+  color: rebeccapurple;
 }
 
 a#nerd {
-	color: rgba(139, 0, 0, 0.75);
+  color: rgba(139, 0, 0, 0.75);
 }
 
 a#blogger {
-	color: orange;
+  color: orange;
 }
 
 a#twitter {
-	color: navy;
+  color: navy;
 }
 
 a#instagram {
-	color: saddlebrown;
+  color: saddlebrown;
 }
 
 a#email {
-	color: yellow;
-}
-
-li {
-	margin: 0.5em auto 0.5em auto;
-	padding-left: 0.5em;
-	list-style-type: square;
-}
-
-div.example {
-	align-items: center;
-	display: flex;
-	justify-content: space-between;
-}
-
-div.example img,
-div.example p {
-	margin-bottom: 1em;
-}
-
-div.example img {
-	-webkit-filter: blur(5px);
-	transition: all 0.25s ease-in-out;
-	width: 45%;
-}
-
-div.example p {
-	width: 50%;
-}
-
-div.example img:hover,
-div.example img:focus {
-	-webkit-filter: none;
-
-}
-
-body#resumepage p#backhome {
-	padding: 0 0 2em 0;
+  color: yellow;
 }
 
 p#copyright {
-	font-size: initial;
-	margin-top: 10em;
+  font-size: initial;
 }
 
 @media (max-width: 740px) {
-
-	body {
-		font-size: 10vw;
-	}
-
-	div.example {
-		flex-wrap: wrap;
-	}
-
-	div.example img,
-	div.example p {
-		margin: initial;
-		width: 100%;
-	}
-
-	div.example p {
-		margin: 1em auto 1em auto;
-	}
-
+  body {
+    font-size: 10vw;
+  }
 }
