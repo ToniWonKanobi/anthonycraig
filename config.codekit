@@ -2,257 +2,330 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "19115",
 "files": {
-	"\/css\/fonts\/417437\/04C362835F2BBB2A6.css": {
-		"fileType": 16,
-		"ignore": 0,
+	"\/404.html": {
+		"fileType": 8192,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/fonts\/417437\/04C362835F2BBB2A6.css",
+		"inputAbbreviatedPath": "\/404.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/fonts\/417437\/0FCB93B1E48096DC5.css": {
+	"\/css\/fonts\/423916\/1BEF15B0A0971B2B9.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/fonts\/417437\/0FCB93B1E48096DC5.css",
+		"inputAbbreviatedPath": "\/css\/fonts\/423916\/1BEF15B0A0971B2B9.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/fonts\/417437\/246C0DCCCEC35EC01.css": {
+	"\/css\/fonts\/423916\/218671D98FFA6F143.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/fonts\/417437\/246C0DCCCEC35EC01.css",
+		"inputAbbreviatedPath": "\/css\/fonts\/423916\/218671D98FFA6F143.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/fonts\/417437\/27C952EBE7790FADD.css": {
+	"\/css\/fonts\/423916\/2BBB2BCEBAB64242A.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/fonts\/417437\/27C952EBE7790FADD.css",
+		"inputAbbreviatedPath": "\/css\/fonts\/423916\/2BBB2BCEBAB64242A.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/fonts\/417437\/29C960CF71BAE8FE2.css": {
+	"\/css\/fonts\/423916\/2BD14D14BA7A62EA3.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/fonts\/417437\/29C960CF71BAE8FE2.css",
+		"inputAbbreviatedPath": "\/css\/fonts\/423916\/2BD14D14BA7A62EA3.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/fonts\/417437\/2AF7C1DE80CEE1CC6.css": {
+	"\/css\/fonts\/423916\/3830086FD3E9639A5.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/fonts\/417437\/2AF7C1DE80CEE1CC6.css",
+		"inputAbbreviatedPath": "\/css\/fonts\/423916\/3830086FD3E9639A5.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/fonts\/417437\/34C76EAAD7E71E966.css": {
+	"\/css\/fonts\/423916\/3C6F27C6DB6211F17.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/fonts\/417437\/34C76EAAD7E71E966.css",
+		"inputAbbreviatedPath": "\/css\/fonts\/423916\/3C6F27C6DB6211F17.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/fonts\/417437\/36BB688505F89B0B5.css": {
+	"\/css\/fonts\/423916\/46AFB7E9FE20604E5.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/fonts\/417437\/36BB688505F89B0B5.css",
+		"inputAbbreviatedPath": "\/css\/fonts\/423916\/46AFB7E9FE20604E5.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/fonts\/417437\/38C05B6D6403E9728.css": {
+	"\/css\/fonts\/423916\/68117EEB78E6E5BA9.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/fonts\/417437\/38C05B6D6403E9728.css",
+		"inputAbbreviatedPath": "\/css\/fonts\/423916\/68117EEB78E6E5BA9.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/fonts\/417437\/3C82A82342EB03543.css": {
+	"\/css\/fonts\/423916\/7032ECD05BD190E2F.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/fonts\/417437\/3C82A82342EB03543.css",
+		"inputAbbreviatedPath": "\/css\/fonts\/423916\/7032ECD05BD190E2F.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/fonts\/417437\/3C9A8A904D4D3EEA4.css": {
+	"\/css\/fonts\/423916\/746D39D5D085D3C6B.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/fonts\/417437\/3C9A8A904D4D3EEA4.css",
+		"inputAbbreviatedPath": "\/css\/fonts\/423916\/746D39D5D085D3C6B.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/fonts\/417437\/40A8524010A74A608.css": {
+	"\/css\/fonts\/423916\/76405172DFBD69F57.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/fonts\/417437\/40A8524010A74A608.css",
+		"inputAbbreviatedPath": "\/css\/fonts\/423916\/76405172DFBD69F57.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/fonts\/417437\/4405A2948F27FEF75.css": {
+	"\/css\/fonts\/423916\/89D3C6E9FBE1A40A8.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/fonts\/417437\/4405A2948F27FEF75.css",
+		"inputAbbreviatedPath": "\/css\/fonts\/423916\/89D3C6E9FBE1A40A8.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/fonts\/417437\/50F539374D7A4D1AE.css": {
+	"\/css\/fonts\/423916\/8B7924C22A19E6D53.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/fonts\/417437\/50F539374D7A4D1AE.css",
+		"inputAbbreviatedPath": "\/css\/fonts\/423916\/8B7924C22A19E6D53.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/fonts\/417437\/531D8EDA6876F108F.css": {
+	"\/css\/fonts\/423916\/9E2471E8FB7DA8450.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/fonts\/417437\/531D8EDA6876F108F.css",
+		"inputAbbreviatedPath": "\/css\/fonts\/423916\/9E2471E8FB7DA8450.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/fonts\/417437\/5B415517E311D2C47.css": {
+	"\/css\/fonts\/423916\/A1E28D03DF26830C9.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/fonts\/417437\/5B415517E311D2C47.css",
+		"inputAbbreviatedPath": "\/css\/fonts\/423916\/A1E28D03DF26830C9.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/fonts\/417437\/6C24DE7476D1AB560.css": {
+	"\/css\/fonts\/423916\/B1E60836C2F70527E.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/fonts\/417437\/6C24DE7476D1AB560.css",
+		"inputAbbreviatedPath": "\/css\/fonts\/423916\/B1E60836C2F70527E.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/fonts\/417437\/71E6E5DACB606DEB8.css": {
+	"\/css\/fonts\/423916\/B296156215EB56A7D.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/fonts\/417437\/71E6E5DACB606DEB8.css",
+		"inputAbbreviatedPath": "\/css\/fonts\/423916\/B296156215EB56A7D.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/fonts\/417437\/7B1C0233F6D3AD15E.css": {
+	"\/css\/fonts\/423916\/B7D1902FE6396AFC9.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/fonts\/417437\/7B1C0233F6D3AD15E.css",
+		"inputAbbreviatedPath": "\/css\/fonts\/423916\/B7D1902FE6396AFC9.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/fonts\/417437\/8A193DD40B06E9177.css": {
+	"\/css\/fonts\/423916\/BD6C2160AB15D0208.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/fonts\/417437\/8A193DD40B06E9177.css",
+		"inputAbbreviatedPath": "\/css\/fonts\/423916\/BD6C2160AB15D0208.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/fonts\/417437\/957F94209A1C2D2AD.css": {
+	"\/css\/fonts\/423916\/C0DD0D7D34B20EA9D.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/fonts\/417437\/957F94209A1C2D2AD.css",
+		"inputAbbreviatedPath": "\/css\/fonts\/423916\/C0DD0D7D34B20EA9D.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/fonts\/417437\/9D8680E53210E3A0E.css": {
+	"\/css\/fonts\/423916\/C2AD4294CD543C566.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/fonts\/417437\/9D8680E53210E3A0E.css",
+		"inputAbbreviatedPath": "\/css\/fonts\/423916\/C2AD4294CD543C566.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/fonts\/417437\/A98608086B26EF1E7.css": {
+	"\/css\/fonts\/423916\/CA404E94724772D9A.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/fonts\/417437\/A98608086B26EF1E7.css",
+		"inputAbbreviatedPath": "\/css\/fonts\/423916\/CA404E94724772D9A.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/fonts\/417437\/BB3CCBC7CB582F084.css": {
+	"\/css\/fonts\/423916\/CB45584E6B9C0C525.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/fonts\/417437\/BB3CCBC7CB582F084.css",
+		"inputAbbreviatedPath": "\/css\/fonts\/423916\/CB45584E6B9C0C525.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/fonts\/417437\/C74ECDA9FD33A11D4.css": {
+	"\/css\/fonts\/423916\/CD6B227A7EB1CD9D7.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/fonts\/417437\/C74ECDA9FD33A11D4.css",
+		"inputAbbreviatedPath": "\/css\/fonts\/423916\/CD6B227A7EB1CD9D7.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/fonts\/417437\/F480F9F5D94A11D60.css": {
+	"\/css\/fonts\/423916\/CFB4F25106F8C38CD.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/fonts\/417437\/F480F9F5D94A11D60.css",
+		"inputAbbreviatedPath": "\/css\/fonts\/423916\/CFB4F25106F8C38CD.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/fonts\/417437\/F9819B7BA2B933B79.css": {
+	"\/css\/fonts\/423916\/D17A1F16DAB78EF4A.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/fonts\/417437\/F9819B7BA2B933B79.css",
+		"inputAbbreviatedPath": "\/css\/fonts\/423916\/D17A1F16DAB78EF4A.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/fonts\/417437\/FCA8934711A974B69.css": {
+	"\/css\/fonts\/423916\/E3FBE7E969E1C9EB2.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/fonts\/417437\/FCA8934711A974B69.css",
+		"inputAbbreviatedPath": "\/css\/fonts\/423916\/E3FBE7E969E1C9EB2.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/css\/fonts\/423916\/EA44B490F54E222E7.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/fonts\/423916\/EA44B490F54E222E7.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/sass\/styles-pagenotfound.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 0,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/css\/sass\/styles-pagenotfound.sass",
+		"outputAbbreviatedPath": "\/css\/styles-pagenotfound.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 1,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 1,
+		"useLibsass": false
+		},
+	"\/css\/sass\/styles-resume.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 0,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/css\/sass\/styles-resume.sass",
+		"outputAbbreviatedPath": "\/css\/styles-resume.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 1,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 1,
+		"useLibsass": false
+		},
+	"\/css\/sass\/styles-valentines-2016.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 0,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/css\/sass\/styles-valentines-2016.sass",
+		"outputAbbreviatedPath": "\/css\/styles-valentines-2016.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 1,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
+		"useLibsass": false
+		},
+	"\/css\/sass\/styles.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 0,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/css\/sass\/styles.sass",
+		"outputAbbreviatedPath": "\/css\/styles.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 1,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 1,
+		"useLibsass": false
 		},
 	"\/css\/styles-pagenotfound.css": {
 		"fileType": 16,
@@ -263,22 +336,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/styles-pagenotfound.sass": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 2,
-		"ignore": 0,
-		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/css\/styles-pagenotfound.sass",
-		"outputAbbreviatedPath": "\/css\/styles-pagenotfound.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
-		"outputStyle": 1,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 1,
-		"useLibsass": false
-		},
 	"\/css\/styles-resume.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -287,22 +344,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/css\/styles-resume.sass": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 2,
-		"ignore": 0,
-		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/css\/styles-resume.sass",
-		"outputAbbreviatedPath": "\/css\/styles-resume.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
-		"outputStyle": 1,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 1,
-		"useLibsass": false
 		},
 	"\/css\/styles-valentines-2016.css": {
 		"fileType": 16,
@@ -313,22 +354,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/styles-valentines-2016.sass": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 2,
-		"ignore": 0,
-		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/css\/styles-valentines-2016.sass",
-		"outputAbbreviatedPath": "\/css\/styles-valentines-2016.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
-		"outputStyle": 1,
-		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 1,
-		"useLibsass": false
-		},
 	"\/css\/styles.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -337,22 +362,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/css\/styles.sass": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 2,
-		"ignore": 0,
-		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/css\/styles.sass",
-		"outputAbbreviatedPath": "\/css\/styles.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
-		"outputStyle": 1,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 1,
-		"useLibsass": false
 		},
 	"\/img\/acddsscreenshot.png": {
 		"fileType": 32768,
@@ -493,6 +502,15 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
+		},
+	"\/resume.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/resume.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/valentines2016.html": {
 		"fileType": 8192,
