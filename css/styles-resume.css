@@ -32,7 +32,6 @@ li {
 a {
   color: inherit;
   border-bottom: 0.1em solid rgba(255, 255, 255, 0.5);
-  padding-bottom: 0.1em;
   text-decoration: none;
   transition: all 150ms ease-in-out;
 }
