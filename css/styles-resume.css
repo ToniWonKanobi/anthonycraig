@@ -34,6 +34,7 @@ li {
   list-style-type: square;
   margin: 0.5em auto 0.5em auto;
   padding-left: 0.5em;
+  line-height: 1.6;
 }
 li:hover span.caveat, li:focus span.caveat {
   height: auto;
