@@ -6,7 +6,7 @@ html
 
 body
 	color: white
-	font-family: "Avenir Next", sans-serif
+	font-family: "Whitney SSm A", "Whitney SSm B", "Avenir Next", sans-serif
 	font-size: 120%
 	font-weight: 400
 	margin: 0 auto
@@ -23,10 +23,26 @@ h2
 p
 	line-height: 1.6
 
+ul
+	padding-left: 1.25em
+	margin-bottom: 1em
+
 li
 	list-style-type: square
 	margin: 0.5em auto 0.5em auto
 	padding-left: 0.5em
+
+	&:hover, &:focus
+		// animation: spin 1s infinite
+
+	&:hover span.caveat, &:focus span.caveat
+		height: auto
+		opacity: 1
+
+	span.caveat
+		height: 0
+		opacity: 0
+		transition: opacity 200ms ease-in-out
 
 a
 	color: inherit
@@ -45,6 +61,10 @@ section
 	background: $darkgray
 	color: white
 
+	h2
+		span.arrow
+			display: inline-block
+
 	&:nth-child(1)
 
 		&:hover, &:focus
@@ -61,10 +81,17 @@ section
 			color: white
 			border: 1em solid white
 
+	&:hover span.arrow, &:focus span.arrow
+		animation: rotate 3s infinite
+
 .example
 	align-items: center
 	display: flex
 	justify-content: space-between
+
+	> a
+		border-bottom: none
+		width: 45%
 
 	img
 		margin: 1em 0 1em 0
@@ -72,7 +99,7 @@ section
 	img
 		-webkit-filter: blur(5px)
 		transition: all 0.25s ease-in-out
-		width: 45%
+		width: 100%
 
 		&:hover, &:focus
 			-webkit-filter: none
@@ -85,8 +112,19 @@ p#backhome
 	padding: 0 0 2em 0
 	text-align: center
 
+@keyframes rotate
+	0%
+		transform: rotateX(0deg)
+	50%
+		transform: rotateX(180deg)
+	100%
+		transform: rotateX(360deg)
+
 @media (max-width: 740px)
 	section
+
+		h2
+			font-size: 12vw
 
 		&:nth-child(1), &:nth-child(2), &:nth-child(3)
 
