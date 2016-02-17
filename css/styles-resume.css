@@ -120,7 +120,7 @@ p#backhome {
     transform: rotateX(180deg);
   }
   100% {
-    transform: rotateX(360deg);
+    transform: rotateX(0deg);
   }
 }
 @media (max-width: 740px) {
