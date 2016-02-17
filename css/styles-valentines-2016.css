@@ -6,7 +6,7 @@ html {
 body {
   background: #ffc2cc;
   color: rgba(255, 0, 0, 0.65);
-  font-family: Avenir, sans-serif;
+  font-family: Avenir Next, sans-serif;
   line-height: 1.6;
   text-transform: uppercase;
   font-weight: bold;
@@ -18,6 +18,10 @@ main {
   margin: 5vw auto;
   padding: 1vh;
   text-align: center; }
+  main > :not(.heart-container) {
+    transition: transform 100ms ease-in-out; }
+    main > :not(.heart-container):hover, main > :not(.heart-container):focus {
+      transform: scale(1.05); }
   main a {
     color: inherit;
     text-decoration: none; }

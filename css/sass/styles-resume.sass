@@ -1,26 +1,30 @@
+$darkestgray: rgba(0,0,0,0.75)
+$darkgray: rgba(255,255,255,0.2)
+
 html
-	background: rgba(0,0,0,0.65)
+	background: $darkestgray
 
 body
-	background: gray
 	color: white
-	font-family: "Avenir", sans-serif
-	font-size: 125%
-	font-weight: 300
-	margin: auto
+	font-family: "Avenir Next", sans-serif
+	font-size: 120%
+	font-weight: 400
+	margin: 0 auto
 	max-width: 800px
-	padding: 0.5em 3em
+
+b
+	font-weight: 700
 
 h2
 	font-size: 250%
-	font-weight: 700
-	margin: 1rem 0 0.5rem 0
+	font-weight: 800
+	margin: auto
 
 p
 	line-height: 1.6
 
 li
-	list-style-type: disc
+	list-style-type: square
 	margin: 0.5em auto 0.5em auto
 	padding-left: 0.5em
 
@@ -34,13 +38,36 @@ a
 	&:focus,
 		border-bottom: 0.1em solid white
 
+section
+	border-bottom: 0.5em solid gray
+	padding: 2em
+	transition: all 200ms ease-in
+	background: $darkgray
+	color: white
+
+	&:nth-child(1)
+
+		&:hover, &:focus
+			transform: scale(1.05) translateY(2%)
+			background: black
+			color: white
+			border: 1em solid white
+
+	&:nth-child(2), &:nth-child(3)
+
+		&:hover, &:focus
+			transform: scale(1.05)
+			background: black
+			color: white
+			border: 1em solid white
+
 .example
-	// align-items: center
+	align-items: center
 	display: flex
 	justify-content: space-between
 
 	img
-		margin-bottom: 1em
+		margin: 1em 0 1em 0
 
 	img
 		-webkit-filter: blur(5px)
@@ -54,15 +81,18 @@ a
 		width: 50%
 
 p#backhome
+	margin-bottom: 0
 	padding: 0 0 2em 0
 	text-align: center
 
 @media (max-width: 740px)
-	body
-		padding: 1.75em
+	section
 
-	section#education h2
-		margin-top: 0
+		&:nth-child(1), &:nth-child(2), &:nth-child(3)
+
+			&:hover, &:focus
+				transform: none
+				border: initial
 
 	.example
 		display: initial

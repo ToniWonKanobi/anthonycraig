@@ -11,7 +11,7 @@ html
 body
 	background: $pink
 	color: $red
-	font-family: Avenir, sans-serif
+	font-family: Avenir Next, sans-serif
 	line-height: 1.6
 	text-transform: uppercase
 	font-weight: bold
@@ -23,6 +23,12 @@ main
 	margin: 5vw auto
 	padding: 1vh
 	text-align: center
+
+	>:not(.heart-container)
+		transition: transform 100ms ease-in-out
+
+		&:hover, &:focus
+			transform: scale(1.05)
 
 	a
 		color: inherit
