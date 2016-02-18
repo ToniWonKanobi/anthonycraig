@@ -59,7 +59,7 @@ a:hover, a:focus {
 section {
   border-bottom: 0.5em solid gray;
   padding: 2em;
-  transition: transform 300ms ease;
+  transition: transform 200ms ease-in-out, background 200ms ease-in-out;
   background: rgba(255, 255, 255, 0.1);
   color: white;
 }
@@ -106,7 +106,7 @@ section:hover span.arrow, section:focus span.arrow {
   margin: 1em 0 1em 0;
 }
 .example img {
-  -webkit-filter: blur(5px);
+  filter: blur(5px);
   transition: all 0.25s ease-in-out;
   width: 100%;
 }
@@ -139,18 +139,22 @@ p#backhome {
     font-size: 12vw;
   }
   section:nth-child(1):hover, section:nth-child(1):focus, section:nth-child(2):hover, section:nth-child(2):focus, section:nth-child(3):hover, section:nth-child(3):focus {
-    transform: none;
-    border: initial;
+    margin: auto;
   }
-
-  .example {
+  section:hover, section:focus {
+    transform: none;
+    outline: none;
+    color: white;
+    border-bottom: 0.5em solid gray;
+  }
+  section .example {
     display: initial;
   }
-  .example img {
+  section .example img {
     margin-bottom: initial;
     width: 100%;
   }
-  .example p {
+  section .example p {
     margin-bottom: 1em;
     width: initial;
   }
