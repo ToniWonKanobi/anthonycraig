@@ -57,7 +57,7 @@ a:hover, a:focus {
 }
 
 section {
-  border-bottom: 0.5em solid gray;
+  border: 0.5em solid gray;
   padding: 2em;
   transition: all 150ms linear;
   background: rgba(255, 255, 255, 0.1);
