@@ -1,5 +1,5 @@
 $darkestgray: rgba(0,0,0,0.75)
-$darkgray: rgba(255,255,255,0.2)
+$darkgray: rgba(255,255,255,0.1)
 
 html
 	background: $darkestgray
@@ -58,7 +58,7 @@ a
 section
 	border-bottom: 0.5em solid gray
 	padding: 2em
-	transition: all 200ms ease-in
+	transition: all 150ms linear
 	background: $darkgray
 	color: white
 
@@ -66,21 +66,22 @@ section
 		span.arrow
 			display: inline-block
 
-	&:nth-child(1)
+	&:hover, &:focus
+		transform: scale(1.05)
+		background: black
+		color: white
+		border: 1em solid white
 
+	&:nth-child(1)
 		&:hover, &:focus
 			transform: scale(1.05) translateY(2%)
-			background: black
-			color: white
-			border: 1em solid white
 
-	&:nth-child(2), &:nth-child(3)
 
-		&:hover, &:focus
-			transform: scale(1.05)
-			background: black
-			color: white
-			border: 1em solid white
+		// &:hover, &:focus
+		// 	transform: scale(1.05)
+		// 	background: black
+		// 	color: white
+		// 	border: 1em solid white
 
 	&:hover span.arrow, &:focus span.arrow
 		animation: rotate 3s infinite
