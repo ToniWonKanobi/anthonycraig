@@ -59,9 +59,13 @@ a:hover, a:focus {
 section {
   border-bottom: 0.5em solid gray;
   padding: 2em;
-  transition: transform 200ms ease;
+  transition: transform 300ms ease;
   background: rgba(255, 255, 255, 0.1);
   color: white;
+}
+section p:hover, section p:focus, section ul li ul li:hover, section ul li ul li:focus {
+  transform: translateX(0.15em) translateY(0.05em);
+  transition: transform 200ms ease-in-out;
 }
 section h2 span.arrow {
   display: inline-block;
@@ -77,6 +81,10 @@ section:hover, section:focus {
 }
 section:nth-child(1):hover, section:nth-child(1):focus {
   margin-top: 3rem;
+}
+section:nth-child(1) li:hover, section:nth-child(1) li:focus {
+  transform: translateX(0.15em) translateY(0.05em);
+  transition: transform 200ms ease-in-out;
 }
 section:nth-child(3):hover, section:nth-child(3):focus {
   margin-bottom: 6rem;

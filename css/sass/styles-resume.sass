@@ -58,9 +58,14 @@ a
 section
 	border-bottom: 0.5em solid gray
 	padding: 2em
-	transition: transform 200ms ease
+	transition: transform 300ms ease
 	background: $darkgray
 	color: white
+
+	p, ul li ul li
+		&:hover, &:focus
+			transform: translateX(0.15em) translateY(0.05em)
+			transition: transform 200ms ease-in-out
 
 	h2
 		span.arrow
@@ -80,6 +85,11 @@ section
 	&:nth-child(1)
 		&:hover, &:focus
 			margin-top: 3rem
+
+		li
+			&:hover, &:focus
+				transform: translateX(0.15em) translateY(0.05em)
+				transition: transform 200ms ease-in-out
 
 	&:nth-child(3)
 		&:hover, &:focus
