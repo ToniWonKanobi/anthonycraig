@@ -71,11 +71,19 @@ section
 		background: black
 		color: white
 		border: none
-		margin-top: 5rem
-		margin-bottom: 5rem
+		margin-top: 2rem
+		margin-bottom: 2rem
 
 		// This was key because border growing was janky
 		outline: 1em solid white
+
+	&:nth-child(1)
+		&:hover, &:focus
+			margin-top: 3rem
+
+	&:nth-child(3)
+		&:hover, &:focus
+			margin-bottom: 6rem
 
 	&:hover span.arrow, &:focus span.arrow
 		animation: rotate 3s infinite
