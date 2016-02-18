@@ -56,9 +56,9 @@ a
 		border-bottom: 0.1em solid white
 
 section
-	border: 0.5em solid gray
+	border-bottom: 0.5em solid gray
 	padding: 2em
-	transition: all 150ms linear
+	transition: transform 200ms ease-in-out
 	background: $darkgray
 	color: white
 
@@ -67,21 +67,15 @@ section
 			display: inline-block
 
 	&:hover, &:focus
-		transform: scale(1.05)
+		transform: scale(1.1)
 		background: black
 		color: white
-		border: 1em solid white
+		border: none
+		margin-top: 5em
+		margin-bottom: 5em
 
-	&:nth-child(1)
-		&:hover, &:focus
-			transform: scale(1.05) translateY(2%)
-
-
-		// &:hover, &:focus
-		// 	transform: scale(1.05)
-		// 	background: black
-		// 	color: white
-		// 	border: 1em solid white
+		// This was key because border growing was janky
+		outline: 1em solid white
 
 	&:hover span.arrow, &:focus span.arrow
 		animation: rotate 3s infinite

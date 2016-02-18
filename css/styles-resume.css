@@ -57,9 +57,9 @@ a:hover, a:focus {
 }
 
 section {
-  border: 0.5em solid gray;
+  border-bottom: 0.5em solid gray;
   padding: 2em;
-  transition: all 150ms linear;
+  transition: transform 200ms ease-in-out;
   background: rgba(255, 255, 255, 0.1);
   color: white;
 }
@@ -67,13 +67,13 @@ section h2 span.arrow {
   display: inline-block;
 }
 section:hover, section:focus {
-  transform: scale(1.05);
+  transform: scale(1.1);
   background: black;
   color: white;
-  border: 1em solid white;
-}
-section:nth-child(1):hover, section:nth-child(1):focus {
-  transform: scale(1.05) translateY(2%);
+  border: none;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  outline: 1em solid white;
 }
 section:hover span.arrow, section:focus span.arrow {
   animation: rotate 3s infinite;
