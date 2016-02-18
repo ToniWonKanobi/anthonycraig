@@ -111,7 +111,7 @@ section:hover span.arrow, section:focus span.arrow {
   width: 100%;
 }
 .example img:hover, .example img:focus {
-  -webkit-filter: none;
+  filter: none;
 }
 .example p {
   width: 50%;
