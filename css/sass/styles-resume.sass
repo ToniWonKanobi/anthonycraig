@@ -1,16 +1,21 @@
-$darkestgray: rgba(0,0,0,0.75)
-$darkgray: rgba(255,255,255,0.1)
+@import bourbon/bourbon
+@import mixins/_mixins
 
-html
-	background: $darkestgray
+$back: lighten(black, 25%)
+$middle: lighten(black, 35%)
+$front: lighten(black, 20%)
 
 body
+	background: $back
 	color: white
 	font-family: "Whitney SSm A", "Whitney SSm B", "Avenir Next", sans-serif
 	font-size: 120%
 	font-weight: 400
 	margin: 0 auto
 	max-width: 800px
+
+	main
+		background: $middle
 
 b
 	font-weight: 700
@@ -43,13 +48,13 @@ li
 	span.caveat
 		height: 0
 		opacity: 0
-		transition: opacity 200ms ease-in-out
+		+transition(opacity 200ms ease-in-out)
 
 a
 	color: inherit
 	border-bottom: 0.1em solid rgba(255, 255, 255, 0.50)
 	text-decoration: none
-	transition: all 150ms ease-in-out
+	+transition(all 150ms ease-in-out)
 
 	&:hover,
 	&:focus,
@@ -58,22 +63,14 @@ a
 section
 	border-bottom: 0.5em solid gray
 	padding: 2em
-	transition: transform 200ms ease-in-out, background 200ms ease-in-out
-	background: $darkgray
+	+transition(background 300ms ease-in-out)
+	+transition(transform 150ms ease-in-out)
+	background: $middle
 	color: white
 
-	p, ul li ul li
-		&:hover, &:focus
-			transform: translateX(0.15em) translateY(0.05em)
-			transition: transform 200ms ease-in-out
-
-	h2
-		span.arrow
-			display: inline-block
-
 	&:hover, &:focus
-		transform: scale(1.1)
-		background: black
+		+transform(scale(1.1))
+		background: $front
 		color: white
 		border: none
 		margin-top: 2rem
@@ -88,20 +85,33 @@ section
 
 		li
 			&:hover, &:focus
-				transform: translateX(0.15em) translateY(0.05em)
-				transition: transform 200ms ease-in-out
+				+transform(translateX(0.15em) translateY(0.05em))
+				+transition-property(transform)
+				+transition-duration(200ms)
+				+transition-timing-function(ease-in-out)
 
 	&:nth-child(3)
+		border-bottom: none
+
 		&:hover, &:focus
 			margin-bottom: 6rem
 
 	&:hover span.arrow, &:focus span.arrow
-		animation: rotate 3s infinite
+		+animation(rotate 3s infinite)
+
+	p, ul li ul li
+		&:hover, &:focus
+			+transform(translateX(0.15em) translateY(0.05em))
+			+transition(transform 200ms ease-in-out)
+
+	h2
+		span.arrow
+			display: inline-block
 
 .example
-	align-items: center
-	display: flex
-	justify-content: space-between
+	+align-items(center)
+	+display(flex)
+	+justify-content(space-between)
 
 	> a
 		border-bottom: none
@@ -111,12 +121,12 @@ section
 		margin: 1em 0 1em 0
 
 	img
-		filter: blur(5px)
-		transition: all 0.25s ease-in-out
+		+filter(blur(5px))
+		+transition(all 0.25s ease-in-out)
 		width: 100%
 
 		&:hover, &:focus
-			filter: none
+			+filter(none)
 
 	p
 		width: 50%
@@ -126,13 +136,13 @@ p#backhome
 	padding: 0 0 2em 0
 	text-align: center
 
-@keyframes rotate
++keyframes(rotate)
 	0%
-		transform: rotateX(0deg)
+		+transform(rotateX(0deg))
 	50%
-		transform: rotateX(180deg)
+		+transform(rotateX(180deg))
 	100%
-		transform: rotateX(0deg)
+		+transform(rotateX(0deg))
 
 @media (max-width: 740px)
 	section
@@ -145,13 +155,11 @@ p#backhome
 				margin: auto
 
 		&:hover, &:focus
-			transform: none
+			+transform(none)
 			outline: none
-			color: white
-			border-bottom: 0.5em solid gray
 
 		.example
-			display: initial
+			+display(initial)
 
 			img
 				margin-bottom: initial
