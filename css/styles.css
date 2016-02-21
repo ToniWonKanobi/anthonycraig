@@ -7,8 +7,7 @@ body {
   max-width: 800px;
 }
 
-main,
-footer {
+main {
   margin: 0.25em;
 }
 
@@ -46,10 +45,6 @@ a#instagram {
 
 a#email {
   color: yellow;
-}
-
-p#copyright {
-  font-size: initial;
 }
 
 @media (max-width: 740px) {
