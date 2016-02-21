@@ -6,9 +6,7 @@ html
 		meta(name="description" content="You're lost.")
 		title Anthony Craig
 		link(rel="index" href="/" title="Anthony Craig")
-		link(rel="shortcut icon" href="/img/favicon.png")
-		link(rel="apple-touch-icon-precomposed" href="/img/favicon-square.png" title="Site Favicon")
-		link(rel="mask-icon" href="/img/heart.svg" color="rgba(298, 2, 27, 0.5)" title="Safari Pinned Tabs Icon")
+		include partials/_favicons
 
 		// Open Graph and Twitter Cards
 		meta(property="og:locale" content="en_US")
@@ -26,12 +24,12 @@ html
 		meta(name="twitter:image" content="/img/anthonycraig.jpg")
 
 		// Stylesheets
-		link(rel="stylesheet" type="text/css" href="/css/styles-pagenotfound.css")
+		include partials/_stylesheets
 
 		// Google Analytics
 		include partials/_google-analytics
 	
-	body
+	body#404
 		main
 			h2 anthonycraig.me
 			p  A fatal exception ac.me has occurred at SIGH:8675309

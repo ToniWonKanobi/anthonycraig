@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="500px" height="400px" viewBox="0 0 500 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+<svg width="500px" height="500px" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
     <!-- Generator: Sketch 3.5.2 (25235) - http://www.bohemiancoding.com/sketch -->
-    <title>full</title>
+    <title>Safari Pinned Tabs</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="Heart-stuff" sketch:type="MSArtboardGroup" transform="translate(-250.000000, 0.000000)" fill="#FF4D4D">
-            <path d="M499.500998,400 C499.667364,400 499.833692,399.999838 499.999983,399.999514 C500.166297,399.999838 500.33263,400 500.499002,400 C638.386735,399.460707 750,287.612168 750,149.717483 C750,11.7195367 600.198775,-55.789033 500,56.5531116 C399.801225,-55.789033 250,11.7195367 250,149.717483 C250,287.612168 361.613265,399.460707 499.500998,399.998056 Z" id="full" sketch:type="MSShapeGroup"></path>
+        <g id="Safari-Pinned-Tabs" sketch:type="MSArtboardGroup" transform="translate(-250.000000, -250.000000)" fill="#000000">
+            <path d="M501,537.247189 L501,659 C500.999023,658.999441 501,659 501,659 L501,537.247189 L501,415.494377 C501,415.494377 538.760608,352.023033 603.584498,384.00789 C668.408388,415.992747 671.629839,483.665959 637.607168,541.968885 C603.584544,600.271729 501.00029,658.999834 501,659 C500.367415,658.637484 398.310495,600.091864 364.392832,541.968885 C330.370161,483.665959 333.591612,415.992747 398.415502,384.00789 C463.239392,352.023033 501,415.494377 501,415.494377 L501,537.247189 Z M500,750 C638.071187,750 750,638.071187 750,500 C750,361.928813 638.071187,250 500,250 C361.928813,250 250,361.928813 250,500 C250,638.071187 361.928813,750 500,750 Z" sketch:type="MSShapeGroup"></path>
         </g>
     </g>
 </svg>

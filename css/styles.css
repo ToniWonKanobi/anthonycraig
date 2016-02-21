@@ -52,3 +52,491 @@ a#email {
     font-size: 10vw;
   }
 }
+body#resume {
+  background: #404040;
+  color: white;
+  font-family: "Whitney SSm A", "Whitney SSm B", "Avenir Next", sans-serif;
+  font-size: 120%;
+  font-weight: 400;
+  margin: 0 auto;
+  max-width: 800px;
+}
+body#resume main {
+  margin-top: 0;
+  margin-bottom: 2em;
+  background: #595959;
+}
+body#resume b {
+  font-weight: 700;
+}
+body#resume h2 {
+  font-size: 250%;
+  font-weight: 800;
+  margin: auto;
+}
+body#resume p {
+  line-height: 1.6;
+}
+body#resume ul {
+  padding-left: 1.25em;
+  margin-bottom: 1em;
+}
+body#resume li {
+  list-style-type: square;
+  margin: 0.5em auto 0.5em auto;
+  padding-left: 0.5em;
+  line-height: 1.6;
+}
+body#resume li:hover span.caveat, body#resume li:focus span.caveat {
+  height: auto;
+  opacity: 1;
+}
+body#resume li span.caveat {
+  height: 0;
+  opacity: 0;
+  -webkit-transition: opacity 200ms ease-in-out;
+  -moz-transition: opacity 200ms ease-in-out;
+  -o-transition: opacity 200ms ease-in-out;
+  transition: opacity 200ms ease-in-out;
+}
+body#resume a {
+  color: inherit;
+  border-bottom: 0.1em solid rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  -webkit-transition: all 150ms ease-in-out;
+  -moz-transition: all 150ms ease-in-out;
+  -o-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+body#resume a:hover, body#resume a:focus {
+  border-bottom: 0.1em solid white;
+}
+body#resume section {
+  border-bottom: 0.5em solid gray;
+  padding: 2em;
+  -webkit-transition: background 300ms ease-in-out;
+  -moz-transition: background 300ms ease-in-out;
+  -o-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+  -webkit-transition: transform 150ms ease-in-out;
+  -moz-transition: transform 150ms ease-in-out;
+  -o-transition: transform 150ms ease-in-out;
+  transition: transform 150ms ease-in-out;
+  background: #595959;
+  color: white;
+}
+body#resume section:hover, body#resume section:focus {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+  background: #333333;
+  color: white;
+  border: none;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  outline: 1em solid white;
+}
+body#resume section:nth-child(1):hover, body#resume section:nth-child(1):focus {
+  margin-top: 3rem;
+}
+body#resume section:nth-child(1) li:hover, body#resume section:nth-child(1) li:focus {
+  -webkit-transform: translateX(0.15em) translateY(0.05em);
+  -moz-transform: translateX(0.15em) translateY(0.05em);
+  -ms-transform: translateX(0.15em) translateY(0.05em);
+  -o-transform: translateX(0.15em) translateY(0.05em);
+  transform: translateX(0.15em) translateY(0.05em);
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  transition-property: transform;
+  -webkit-transition-duration: 200ms;
+  -moz-transition-duration: 200ms;
+  transition-duration: 200ms;
+  -webkit-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+body#resume section:nth-child(3) {
+  border-bottom: none;
+}
+body#resume section:nth-child(3):hover, body#resume section:nth-child(3):focus {
+  margin-bottom: 6rem;
+}
+body#resume section:hover span.arrow, body#resume section:focus span.arrow {
+  -webkit-animation: rotate 3s infinite;
+  -moz-animation: rotate 3s infinite;
+  animation: rotate 3s infinite;
+}
+body#resume section p:hover, body#resume section p:focus, body#resume section ul li ul li:hover, body#resume section ul li ul li:focus {
+  -webkit-transform: translateX(0.15em) translateY(0.05em);
+  -moz-transform: translateX(0.15em) translateY(0.05em);
+  -ms-transform: translateX(0.15em) translateY(0.05em);
+  -o-transform: translateX(0.15em) translateY(0.05em);
+  transform: translateX(0.15em) translateY(0.05em);
+  -webkit-transition: transform 200ms ease-in-out;
+  -moz-transition: transform 200ms ease-in-out;
+  -o-transition: transform 200ms ease-in-out;
+  transition: transform 200ms ease-in-out;
+}
+body#resume section h2 span.arrow {
+  display: inline-block;
+}
+body#resume .example {
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  box-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  align-items: center;
+  -ms-flex-align: center;
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  box-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  -o-justify-content: space-between;
+  justify-content: space-between;
+  -ms-flex-pack: justify;
+}
+body#resume .example > a {
+  border-bottom: none;
+  width: 45%;
+}
+body#resume .example img {
+  margin: 1em 0 1em 0;
+}
+body#resume .example img {
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  width: 100%;
+}
+body#resume .example img:hover, body#resume .example img:focus {
+  -webkit-filter: none;
+  filter: none;
+}
+body#resume .example p {
+  width: 50%;
+}
+body#resume p#backhome {
+  margin-bottom: 0;
+  padding: 0 0 2em 0;
+  text-align: center;
+}
+@-webkit-keyframes rotate {
+  0% {
+    -webkit-transform: rotateX(0deg);
+  }
+  50% {
+    -webkit-transform: rotateX(180deg);
+  }
+  100% {
+    -webkit-transform: rotateX(0deg);
+  }
+}
+@-moz-keyframes rotate {
+  0% {
+    -moz-transform: rotateX(0deg);
+  }
+  50% {
+    -moz-transform: rotateX(180deg);
+  }
+  100% {
+    -moz-transform: rotateX(0deg);
+  }
+}
+@keyframes rotate {
+  0% {
+    -webkit-transform: rotateX(0deg);
+    -moz-transform: rotateX(0deg);
+    -ms-transform: rotateX(0deg);
+    -o-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+  }
+  50% {
+    -webkit-transform: rotateX(180deg);
+    -moz-transform: rotateX(180deg);
+    -ms-transform: rotateX(180deg);
+    -o-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+  }
+  100% {
+    -webkit-transform: rotateX(0deg);
+    -moz-transform: rotateX(0deg);
+    -ms-transform: rotateX(0deg);
+    -o-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+  }
+}
+@media (max-width: 740px) {
+  body#resume section h2 {
+    font-size: 12vw;
+  }
+  body#resume section:nth-child(1):hover, body#resume section:nth-child(1):focus, body#resume section:nth-child(2):hover, body#resume section:nth-child(2):focus, body#resume section:nth-child(3):hover, body#resume section:nth-child(3):focus {
+    margin: auto;
+  }
+  body#resume section:hover, body#resume section:focus {
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+    outline: none;
+  }
+  body#resume section .example {
+    display: initial;
+  }
+  body#resume section .example img {
+    margin-bottom: initial;
+    width: 100%;
+  }
+  body#resume section .example p {
+    margin-bottom: 1em;
+    width: initial;
+  }
+}
+
+body#404 {
+  background: blue;
+  color: white;
+  font-family: Courier;
+  margin: 20vh auto;
+  padding: 1em;
+  max-width: 800px;
+}
+body#404 h2 {
+  background: white;
+  color: blue;
+  margin: auto;
+  padding: 0.25em;
+  text-transform: uppercase;
+  max-width: 250px;
+  text-align: center;
+}
+body#404 li {
+  list-style-type: disc;
+}
+body#404 p:last-of-type {
+  margin-top: 2em;
+  text-align: center;
+}
+body#404 a {
+  color: white;
+}
+
+body#valentines-2016 {
+  background: #ffb3b3;
+  border: 1em solid #ff4d4d;
+  box-sizing: border-box;
+  min-height: 100vh;
+  font-size: 125%;
+  margin: 0 auto;
+  min-width: 100vw;
+}
+body#valentines-2016 .container {
+  background: #ffb3b3;
+  color: #ff4d4d;
+  font-family: "Whitney SSm A", "Whitney SSm B", "Avenir Next", sans-serif;
+  line-height: 1.6;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+}
+body#valentines-2016 main {
+  width: 80%;
+  max-width: 800px;
+  margin: 5vw auto;
+  padding: 1vh;
+  text-align: center;
+}
+body#valentines-2016 main > :not(.heart-container) {
+  -webkit-transition: transform 100ms ease-in-out;
+  -moz-transition: transform 100ms ease-in-out;
+  -o-transition: transform 100ms ease-in-out;
+  transition: transform 100ms ease-in-out;
+}
+body#valentines-2016 main > :not(.heart-container):hover, body#valentines-2016 main > :not(.heart-container):focus {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05);
+}
+body#valentines-2016 main a {
+  color: inherit;
+  text-decoration: none;
+}
+body#valentines-2016 main * {
+  background: white;
+  padding: 1rem;
+  margin: 2rem auto;
+}
+body#valentines-2016 .heart-container {
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  box-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  align-items: center;
+  -ms-flex-align: center;
+  background: white;
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -moz-box-direction: normal;
+  box-direction: normal;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-direction: row;
+  -webkit-box-lines: multiple;
+  -moz-box-lines: multiple;
+  box-lines: multiple;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: distribute;
+  -moz-box-pack: distribute;
+  box-pack: distribute;
+  -webkit-justify-content: space-around;
+  -moz-justify-content: space-around;
+  -ms-justify-content: space-around;
+  -o-justify-content: space-around;
+  justify-content: space-around;
+  -ms-flex-pack: distribute;
+  margin: 2rem auto;
+}
+body#valentines-2016 .heart-container h2 {
+  width: 40%;
+  color: #ff4d4d;
+}
+body#valentines-2016 .heart-container img {
+  -webkit-animation: heartbeat 0.9s infinite;
+  -moz-animation: heartbeat 0.9s infinite;
+  animation: heartbeat 0.9s infinite;
+  width: 50%;
+}
+body#valentines-2016 .heart-container p {
+  font-size: x-large;
+}
+body#valentines-2016 footer p {
+  color: white;
+  font-size: x-small;
+  margin: auto;
+  text-align: center;
+  width: 200px;
+}
+@-webkit-keyframes heartbeat {
+  0% {
+    -webkit-transform: scale(0.75);
+  }
+  20% {
+    -webkit-transform: scale(1);
+  }
+  40% {
+    -webkit-transform: scale(0.75);
+  }
+  60% {
+    -webkit-transform: scale(1);
+  }
+  80% {
+    -webkit-transform: scale(0.75);
+  }
+  100% {
+    -webkit-transform: scale(0.75);
+  }
+}
+@-moz-keyframes heartbeat {
+  0% {
+    -moz-transform: scale(0.75);
+  }
+  20% {
+    -moz-transform: scale(1);
+  }
+  40% {
+    -moz-transform: scale(0.75);
+  }
+  60% {
+    -moz-transform: scale(1);
+  }
+  80% {
+    -moz-transform: scale(0.75);
+  }
+  100% {
+    -moz-transform: scale(0.75);
+  }
+}
+@keyframes heartbeat {
+  0% {
+    -webkit-transform: scale(0.75);
+    -moz-transform: scale(0.75);
+    -ms-transform: scale(0.75);
+    -o-transform: scale(0.75);
+    transform: scale(0.75);
+  }
+  20% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
+  40% {
+    -webkit-transform: scale(0.75);
+    -moz-transform: scale(0.75);
+    -ms-transform: scale(0.75);
+    -o-transform: scale(0.75);
+    transform: scale(0.75);
+  }
+  60% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
+  80% {
+    -webkit-transform: scale(0.75);
+    -moz-transform: scale(0.75);
+    -ms-transform: scale(0.75);
+    -o-transform: scale(0.75);
+    transform: scale(0.75);
+  }
+  100% {
+    -webkit-transform: scale(0.75);
+    -moz-transform: scale(0.75);
+    -ms-transform: scale(0.75);
+    -o-transform: scale(0.75);
+    transform: scale(0.75);
+  }
+}
+@media (max-width: 740px) {
+  body#valentines-2016 .heart-container h2, body#valentines-2016 .heart-container img {
+    width: 100%;
+  }
+}

@@ -6,9 +6,7 @@ html(lang="en")
 		meta(name="description" content="Happy Valentine's Day")
 		meta(name="keywords" content="valentine's day, Allison")
 		title Happy Valentine's Day Allison!
-		link(rel="shortcut icon" href="/img/favicon.png")
-		link(rel="apple-touch-icon-precomposed" href="/img/favicon-square.png" title="Site Favicon")
-		link(rel="mask-icon" href="/img/heart.svg" color="rgba(298, 2, 27, 0.5)" title="Safari Pinned Tabs Icon")
+		include partials/_favicons
 
 		// Open Graph and Twitter Cards
 		meta(property="og:locale" content="en_US")
@@ -26,20 +24,19 @@ html(lang="en")
 		meta(name="twitter:image" content="/img/anthonycraig.jpg")
 
 		// Stylesheets
-		link(rel="stylesheet" type="text/css" href="css/styles-valentines-2016.css")
-		link(rel="stylesheet" type="text/css" href="//cloud.typography.com/7099154/6654952/css/fonts.css")
+		include partials/_stylesheets
 
 		// Google Analytics
 		include partials/_google-analytics
 
-	body
+	body#valentines-2016
 		.container
 			main
-			
 				h1 // Allison
+
 				.heart-container
 					h2 This heart beats only for you
-					img(src="/img/heart.svg", alt="Heart", title="Heart yup")
+					img(src="/img/valentines-heart.svg" alt="Heart" title="Heart")
 
 				p (It's the same for my heart)
 				p Happy Valentine's Day
