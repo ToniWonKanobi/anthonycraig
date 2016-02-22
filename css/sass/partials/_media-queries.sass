@@ -1,0 +1,40 @@
+@media (max-width: 740px)
+	body
+		font-size: 11vw
+
+	body#resume
+		section
+			h2
+				font-size: 12vw
+
+			// I have to explicitly call out each child because I was more specific up top
+			&:nth-child(1), &:nth-child(2), &:nth-child(3)
+				&:hover, &:focus
+					margin: auto
+
+			&:hover, &:focus
+				transform: none
+				outline: none
+
+			.example
+				display: initial
+
+				img
+					margin-bottom: initial
+					width: 100%
+
+				p
+					margin-bottom: 1em
+					width: initial
+
+	body#valentines-2016
+		.container
+			main
+				h1
+					font-size: 10vw
+					
+				.heart-container
+					h2, img
+						width: 100%
+						padding: 1rem
+						margin: 0

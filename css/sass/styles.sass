@@ -1,4 +1,10 @@
-@import 0-tools/_tools-index
+$resume: lighten(forestgreen, 15%)
+$dent: rebeccapurple
+$nerd: rgba(139, 0, 0, 0.75)
+$blogger: darken(orange, 5%)
+$twitter: navy
+$instagram: darken(saddlebrown, 5%)
+$email: darken(yellow, 5%)
 
 body
 	background: cornflowerblue
@@ -7,6 +13,7 @@ body
 	font-size: 500%
 	font-weight: 900
 	max-width: 800px
+	line-height: 1.15
 
 main
 	margin: 0.25em
@@ -18,30 +25,24 @@ a
 	text-decoration: none
 
 a#resume
-	color: yellowgreen
+	color: $resume
 
 a#dent
-	color: rebeccapurple
+	color: $dent
 
 a#nerd
-	color: rgba(139, 0, 0, 0.75)
+	color: $nerd
 
 a#blogger
-	color: orange
+	color: $blogger
 
 a#twitter
-	color: navy
+	color: $twitter
 
 a#instagram
-	color: saddlebrown
+	color: $instagram
 
 a#email
-	color: yellow
+	color: $email
 
-@media (max-width: 740px)
-	body
-		font-size: 10vw
-
-@import 1-partials/_styles-resume
-@import 1-partials/_styles-pagenotfound
-@import 1-partials/_styles-valentines-2016
+@import partials/_partials-index
