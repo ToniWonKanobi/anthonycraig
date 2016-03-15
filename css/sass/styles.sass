@@ -14,12 +14,25 @@ body
 	font-weight: 900
 	max-width: 800px
 	line-height: 1.15
+	display: flex
+	min-height: 100vh
+	min-width: 100vw
+	align-items: center
+	justify-content: center
+	margin: 0
 
 main
-	margin: 0.25em
+	padding: 5vw
 
 p
-	margin-top: 0
+	margin: 0
+	transition: transform 400ms ease-in-out
+
+	&:hover, &:focus
+		transform: scale(1.1)
+
+	&:last-child
+		margin-top: 1em
 
 a
 	text-decoration: none
@@ -44,5 +57,28 @@ a#instagram
 
 a#email
 	color: $email
+
+.slide-in-top
+	animation: slide-in-top 1s
+
+@keyframes slide-in-top
+	from
+		transform: translateY(-50vh)
+		opacity: 0
+	to
+		transform: translateY(0)
+		opacity: 1
+
+.slide-up-bottom
+	animation: slide-up-bottom 2s
+	// animation-delay: 250ms
+
+@keyframes slide-up-bottom
+	from
+		transform: translateY(50vh)
+		opacity: 0
+	to
+		transform: translateY(0)
+		opacity: 1
 
 @import partials/_partials-index

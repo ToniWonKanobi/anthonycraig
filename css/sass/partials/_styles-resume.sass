@@ -11,10 +11,18 @@ body#resume
 	margin: 0 auto
 	max-width: 800px
 
+	// Resets from index page
+	min-height: initial
+	min-width: initial
+	display: block
+
 	main
 		margin-top: 0
 		margin-bottom: 2em
 		background: $middle
+
+		// Resets from index page
+		padding: initial
 
 	b
 		font-weight: 700
@@ -71,15 +79,16 @@ body#resume
 			background: $front
 			color: white
 			border: none
-			margin-top: 2rem
-			margin-bottom: 2rem
+			margin-top: 2em
+			margin-bottom: 2em
 
 			// This was key because border growing was janky
 			outline: 1em solid white
 
 		&:nth-child(1)
 			&:hover, &:focus
-				margin-top: 3rem
+				margin-top: 4em
+				margin-bottom: 4em
 
 			li
 				&:hover, &:focus
@@ -108,13 +117,11 @@ body#resume
 		align-items: center
 		display: flex
 		justify-content: space-between
+		margin: 2em 0
 
 		> a
 			border-bottom: none
 			width: 45%
-
-		img
-			margin: 1em 0 1em 0
 
 		img
 			filter: blur(5px)
@@ -125,6 +132,7 @@ body#resume
 				filter: none
 
 		p
+			margin: 0
 			width: 50%
 
 	footer
