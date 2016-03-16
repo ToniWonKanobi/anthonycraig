@@ -24,14 +24,16 @@ html
 		meta(name="twitter:image" content="/img/anthonycraig.jpg")
 
 		// Stylesheets
-		include partials/_stylesheets
+		link(rel="stylesheet" type="text/css" href="css/styles-resume.css")
+		link(rel="stylesheet" type="text/css" href="//cloud.typography.com/7099154/6654952/css/fonts.css")
+
 
 		// Google Analytics
 		include partials/_google-analytics
 
-	body#resume
+	body
 		main
-				section#works
+				section#works.dissolve
 					h2
 						span.arrow »
 						|  Works
@@ -69,7 +71,7 @@ html
 							a(href="https://twitter.com/smokeythedingo" title="Smokey on Twitter") four-legged companion
 							| .
 
-				section#skills
+				section#skills.dissolve
 					h2
 						span.arrow »
 						|  Skills
@@ -96,7 +98,7 @@ html
 								li Node 
 									span.caveat (Minimal)
 
-				section#education
+				section#education.dissolve
 					h2
 						span.arrow » 
 						|  Education
@@ -121,4 +123,4 @@ html
 						em and
 						|  incredibly rewarding.
 		footer
-			p#backhome: a(href="/" rel=index title="Back to the homepage") Back to the frontpage
+			p#backhome: a(href="/#back" rel=index title="Back to the homepage") Back to the frontpage

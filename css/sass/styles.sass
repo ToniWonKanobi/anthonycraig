@@ -1,7 +1,7 @@
 $resume: lighten(forestgreen, 15%)
-$dent: rebeccapurple
-$nerd: rgba(139, 0, 0, 0.75)
-$blogger: darken(orange, 5%)
+$dental: rebeccapurple
+$github: rgba(139, 0, 0, 0.75)
+$blog: darken(orange, 5%)
 $twitter: navy
 $instagram: darken(saddlebrown, 5%)
 $email: darken(yellow, 5%)
@@ -29,7 +29,7 @@ p
 	transition: transform 400ms ease-in-out
 
 	&:hover, &:focus
-		transform: scale(1.1)
+		transform: scale(1.05) rotate(1deg)
 
 	&:last-child
 		margin-top: 1em
@@ -40,14 +40,14 @@ a
 a#resume
 	color: $resume
 
-a#dent
-	color: $dent
+a#dental
+	color: $dental
 
-a#nerd
-	color: $nerd
+a#github
+	color: $github
 
-a#blogger
-	color: $blogger
+a#blog
+	color: $blog
 
 a#twitter
 	color: $twitter
@@ -58,27 +58,27 @@ a#instagram
 a#email
 	color: $email
 
-.slide-in-top
-	animation: slide-in-top 1s
+.fade-in
+	animation: fade-in 650ms ease
 
-@keyframes slide-in-top
+	&:last-of-type
+		animation-duration: 1300ms
+
+@keyframes fade-in
 	from
-		transform: translateY(-50vh)
+		transform: scale(10) translateX(-100vw)
 		opacity: 0
 	to
-		transform: translateY(0)
+		transform: scale (1) translateX(0)
 		opacity: 1
 
-.slide-up-bottom
-	animation: slide-up-bottom 2s
-	// animation-delay: 250ms
+\:target
+	.fade-in
+		animation: none
 
-@keyframes slide-up-bottom
-	from
-		transform: translateY(50vh)
-		opacity: 0
-	to
-		transform: translateY(0)
-		opacity: 1
+@media (max-width: 740px)
+	body
+		font-size: 11vw
 
-@import partials/_partials-index
+	p:hover, p:focus
+		transform: initial

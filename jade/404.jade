@@ -24,12 +24,12 @@ html
 		meta(name="twitter:image" content="/img/anthonycraig.jpg")
 
 		// Stylesheets
-		include partials/_stylesheets
+		link(rel="stylesheet" type="text/css" href="css/styles-404.css")
 
 		// Google Analytics
 		include partials/_google-analytics
 	
-	body#404
+	body
 		main
 			h2 anthonycraig.me
 			p  A fatal exception ac.me has occurred at SIGH:8675309
@@ -41,5 +41,6 @@ html
 				li Don't press CTRL+ALT+DELETE unless you use a Windows machine, in which case you're screwed anyways
 			
 			p Go 
-				a(href="/" rel=index title="Homepage") here
+				// The `\#back` hash is targeted with `:target` in the CSS so I can disable animations on the homepage when people get back there for whatever reason
+				a(href="/#back" rel=index title="Homepage") here
 				|  to return to normalcy

@@ -263,47 +263,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/sass\/partials\/_media-queries.sass": {
+	"\/css\/sass\/styles-404.sass": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 2,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/sass\/partials\/_media-queries.sass",
-		"outputAbbreviatedPath": "\/css\/sass\/css\/_media-queries.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
-		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 1,
-		"useLibsass": false
-		},
-	"\/css\/sass\/partials\/_partials-index.sass": {
-		"createSourceMap": 1,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 2,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/sass\/partials\/_partials-index.sass",
-		"outputAbbreviatedPath": "\/css\/sass\/css\/_partials-index.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
-		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 1,
-		"useLibsass": false
-		},
-	"\/css\/sass\/partials\/_styles-pagenotfound.sass": {
-		"createSourceMap": 1,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 2,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/css\/sass\/partials\/_styles-pagenotfound.sass",
-		"outputAbbreviatedPath": "\/css\/styles-pagenotfound.css",
+		"inputAbbreviatedPath": "\/css\/sass\/styles-404.sass",
+		"outputAbbreviatedPath": "\/css\/styles-404.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 3,
@@ -311,14 +279,14 @@
 		"shouldRunBless": 1,
 		"useLibsass": false
 		},
-	"\/css\/sass\/partials\/_styles-resume.sass": {
+	"\/css\/sass\/styles-resume.sass": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 2,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/css\/sass\/partials\/_styles-resume.sass",
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/sass\/styles-resume.sass",
 		"outputAbbreviatedPath": "\/css\/styles-resume.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
@@ -327,14 +295,14 @@
 		"shouldRunBless": 1,
 		"useLibsass": false
 		},
-	"\/css\/sass\/partials\/_styles-valentines-2016.sass": {
+	"\/css\/sass\/styles-valentines-2016.sass": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 2,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/sass\/partials\/_styles-valentines-2016.sass",
+		"inputAbbreviatedPath": "\/css\/sass\/styles-valentines-2016.sass",
 		"outputAbbreviatedPath": "\/css\/styles-valentines-2016.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
@@ -358,6 +326,33 @@
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
 		"useLibsass": false
+		},
+	"\/css\/styles-404.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/styles-404.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/styles-resume.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/styles-resume.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/styles-valentines-2016.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/styles-valentines-2016.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/css\/styles.css": {
 		"fileType": 16,
@@ -487,17 +482,6 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
-	"\/jade\/partials\/_stylesheets.jade": {
-		"compileDebug": 1,
-		"fileType": 512,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/jade\/partials\/_stylesheets.jade",
-		"outputAbbreviatedPath": "\/jade\/partials\/_stylesheets.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0
-		},
 	"\/jade\/resume.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -541,11 +525,11 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/valentines2016.html": {
+	"\/resume.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/valentines2016.html",
+		"inputAbbreviatedPath": "\/resume.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

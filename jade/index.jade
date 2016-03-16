@@ -24,29 +24,31 @@ html
 		meta(name="twitter:image" content="/img/anthonycraig.jpg")
 
 		// Stylesheets
-		include partials/_stylesheets
+		link(rel="stylesheet" type="text/css" href="css/styles.css")
+		link(rel="stylesheet" type="text/css" href="//cloud.typography.com/7099154/6654952/css/fonts.css")
+
 
 		// Google Analytics
 		include partials/_google-analytics
 
 	body
-		main
-			p.slide-in-top
+		main#back
+			p.fade-in
 				a#resume(href="/resume" title="Resume slash portfolio page") Anthony Craig 
 				| is 
 				br
 				| an everyday 
-				a#dent(href="http://anthonycraigdds.com" title="Link to my professional persona") tooth carpenter
+				a#dental(href="http://anthonycraigdds.com" title="Link to my professional persona") tooth carpenter
 				| ,
 				br
 				| a wannabe 
-				a#nerd(href="https://github.com/ToniWonKanobi" title="Me on GitHub") nerd
+				a#github(href="https://github.com/ToniWonKanobi" title="Me on GitHub") nerd
 				| ,
 				br
 				| and an occasional 
-				a#blogger(href="http://theoveranalyzed.net" title="My blog") blogger
+				a#blog(href="http://theoveranalyzed.net" title="My blog") blogger
 				| .
-			p.slide-up-bottom You can follow his 
+			p.fade-in You can follow his 
 				a#twitter(href="https://twitter.com/toniwonkanobi" title="Me on Twitter") tweets
 				| ,
 				br
