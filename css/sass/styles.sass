@@ -11,7 +11,7 @@ body
 	background: cornflowerblue
 	color: white
 	display: flex
-	font-family: "Archer Heavyweight A", "Archer Heavyweight B", "Avenir", sans-serif
+	font-family: "Archer Heavyweight A", "Archer Heavyweight B", "Avenir Next", sans-serif
 	font-size: 5vw
 	font-weight: 900
 	justify-content: center
@@ -21,49 +21,54 @@ body
 	min-width: 100vw
 
 main
-	padding: 5vw
+	margin: 0
 
 p
 	margin: 0
-	transition: transform 400ms ease-in-out
+	transition: all 200ms ease-in-out
 
 	&:hover, &:focus
-		transform: scale(1.05) rotate(1deg)
+		background: lighten(black,10%)
+		padding: 0.5em
+		transform: scale(1.05) rotate(2deg) translateY(2rem)
 
 	&:last-child
 		margin-top: 0.75em
 
+		&:hover, &:focus
+			transform: scale(1.05) rotate(-2deg) translateY(-2rem)
+
 a
 	text-decoration: none
 
-a#resume
+a.resume
 	color: $resume
 
-a#dental
+a.dental
 	color: $dental
 
-a#github
+a.github
 	color: $github
 
-a#blog
+a.blog
 	color: $blog
 
-a#twitter
+a.twitter
 	color: $twitter
 
-a#instagram
+a.instagram
 	color: $instagram
 
-a#email
+a.email
 	color: $email
 
-.fade-in
-	animation: fade-in 650ms ease
+.fly-in
+	animation: fly-in 500ms ease-out
 
 	&:last-of-type
-		animation-duration: 1300ms
+		animation-duration: 1s
 
-@keyframes fade-in
+@keyframes fly-in
 	from
 		transform: scale(10) translateX(-100vw)
 		opacity: 0
@@ -72,13 +77,17 @@ a#email
 		opacity: 1
 
 \:target
-	.fade-in
+	.fly-in
 		animation: none
 
 @media (max-width: 740px)
 	body
 		font-size: 10vw
-		min-height: 100vh
 
-	p:hover, p:focus
+	main
+		padding: 1em
+
+	p:hover, p:focus, p:last-child:hover, p:last-child:focus
+		background: initial
+		padding: initial
 		transform: initial
