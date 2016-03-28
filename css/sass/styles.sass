@@ -2,7 +2,7 @@ $resume: lighten(forestgreen, 15%)
 $dental: rebeccapurple
 $github: rgba(139, 0, 0, 0.75)
 $blog: darken(orange, 5%)
-$twitter: navy
+$twitter: lighten(navy,35%)
 $instagram: darken(saddlebrown, 5%)
 $email: darken(yellow, 5%)
 
@@ -63,18 +63,20 @@ a.email
 	color: $email
 
 .fly-in
-	animation: fly-in 500ms ease-out
+	animation: fly-in 300ms ease-in
 
 	&:last-of-type
-		animation-duration: 1s
+		animation-duration: 500ms
 
 @keyframes fly-in
-	from
-		transform: scale(10) translateX(-100vw)
+	0%
+		transform: scale(20)
 		opacity: 0
-	to
-		transform: scale (1) translateX(0)
+	50%
+		transform: scale (1)
 		opacity: 1
+	90%
+		transform: translateY()
 
 \:target
 	.fly-in
