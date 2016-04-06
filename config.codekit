@@ -363,35 +363,35 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/img\/acdds-screenshot-2.png": {
-		"fileType": 32768,
+	"\/img\/acdds-screenshot-2.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 512828,
-		"inputAbbreviatedPath": "\/img\/acdds-screenshot-2.png",
-		"outputAbbreviatedPath": "\/img\/acdds-screenshot-2.png",
+		"initialSize": 61822,
+		"inputAbbreviatedPath": "\/img\/acdds-screenshot-2.jpg",
+		"outputAbbreviatedPath": "\/img\/acdds-screenshot-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/acdds-screenshot.png": {
-		"fileType": 32768,
+	"\/img\/acdds-screenshot.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 276590,
-		"inputAbbreviatedPath": "\/img\/acdds-screenshot.png",
-		"outputAbbreviatedPath": "\/img\/acdds-screenshot.png",
+		"initialSize": 63472,
+		"inputAbbreviatedPath": "\/img\/acdds-screenshot.jpg",
+		"outputAbbreviatedPath": "\/img\/acdds-screenshot.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/acme.png": {
-		"fileType": 32768,
+	"\/img\/acme.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 229196,
-		"inputAbbreviatedPath": "\/img\/acme.png",
-		"outputAbbreviatedPath": "\/img\/acme.png",
+		"initialSize": 53472,
+		"inputAbbreviatedPath": "\/img\/acme.jpg",
+		"outputAbbreviatedPath": "\/img\/acme.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -418,13 +418,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/toa-screenshot.png": {
-		"fileType": 32768,
+	"\/img\/toa-screenshot.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 820734,
-		"inputAbbreviatedPath": "\/img\/toa-screenshot.png",
-		"outputAbbreviatedPath": "\/img\/toa-screenshot.png",
+		"initialSize": 74476,
+		"inputAbbreviatedPath": "\/img\/toa-screenshot.jpg",
+		"outputAbbreviatedPath": "\/img\/toa-screenshot.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -524,15 +524,6 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
-		},
-	"\/resume.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/resume.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/valentines2016.html": {
 		"fileType": 8192,
