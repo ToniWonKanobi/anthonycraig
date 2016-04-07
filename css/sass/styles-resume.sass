@@ -11,7 +11,7 @@ body
 	margin: 0 auto
 	max-width: 1000px
 
-main
+.main
 	margin-top: 0
 	margin-bottom: 2em
 	background: $middle
@@ -44,21 +44,22 @@ li
 		height: auto
 		opacity: 1
 
-	span.caveat
-		height: 0
-		opacity: 0
-		transition: opacity 200ms ease-in-out
+.caveat
+	height: 0
+	opacity: 0
+	transition: opacity 200ms ease-in-out
 
 a
 	color: inherit
 	border-bottom: 0.1em solid rgba(255, 255, 255, 0.50)
+	padding-bottom: 0.1em
 	text-decoration: none
 	transition: all 150ms ease-in-out
 
 	&:hover, &:focus
 		border-bottom: 0.1em solid white
 
-section
+.group
 	border-bottom: 0.5em solid gray
 	padding: 2em
 	transition: background 300ms ease-in-out, transform 150ms ease-in-out
@@ -76,33 +77,25 @@ section
 		// This was key because border growing was janky
 		outline: 1em solid white
 
-	&:nth-child(1)
-		&:hover, &:focus
-			margin-top: 4em
-			margin-bottom: 4em
+		.arrow
+			animation: rotate 3s infinite
 
-		li
-			&:hover, &:focus
-				transform: translateX(0.15em) translateY(0.05em)
-				transition: transform 200ms ease-in-out
+.works
+	&:hover, &:focus
+		margin-top: 4em
+		margin-bottom: 4em
 
-	&:nth-child(3)
-		border-bottom: none
-
-		&:hover, &:focus
-			margin-bottom: 6rem
-
-	&:hover span.arrow, &:focus span.arrow
-		animation: rotate 3s infinite
-
-	p, ul li ul li
-		&:hover, &:focus
-			transform: translateX(0.15em) translateY(0.05em)
-			transition: transform 200ms ease-in-out
+.skills
+	&:hover, &:focus
+		margin-bottom: 6rem
 
 	h2
 		span.arrow
 			display: inline-block
+
+.education
+	&:hover, &:focus
+		margin-bottom: 6rem
 
 .example
 	align-items: center
@@ -110,29 +103,23 @@ section
 	justify-content: space-between
 	margin: 2em 0
 
+	// Removes boder from links that have the screenshots
 	> a
 		border-bottom: none
 		width: 45%
 
-	img
-		filter: blur(5px)
-		transition: all 0.25s ease-in-out
-
+	.screenshot
 		// Prevents overloading on desktop and mobile
 		max-width: 100%
-
-		&:hover, &:focus
-			filter: none
 
 	p
 		margin: 0
 		width: 50%
 
-footer
-	p
-		margin-bottom: 0
-		padding: 0 0 2em 0
-		text-align: center
+.back-message
+	margin-bottom: 0
+	padding: 0 0 2em 0
+	text-align: center
 
 // The arrow on the h2's
 @keyframes rotate

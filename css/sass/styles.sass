@@ -20,7 +20,7 @@ body
 	min-height: 100vh
 	min-width: 100vw
 
-main
+.main
 	margin: 0
 
 p
@@ -30,13 +30,16 @@ p
 	&:hover, &:focus
 		background: lighten(black,10%)
 		padding: 0.5em
+
+.first-paragraph
+	&:hover, &:focus
 		transform: scale(1.05) rotate(2deg) translateY(2rem)
 
-	&:last-child
-		margin-top: 0.75em
+.second-paragraph
+	margin-top: 0.75em
 
-		&:hover, &:focus
-			transform: scale(1.05) rotate(-2deg) translateY(-2rem)
+	&:hover, &:focus
+		transform: scale(1.05) rotate(-2deg) translateY(-2rem)
 
 a
 	text-decoration: none
@@ -65,8 +68,8 @@ a.email
 .fly-in
 	animation: fly-in 300ms ease-in
 
-	&:last-of-type
-		animation-duration: 500ms
+.delay
+	animation-duration: 500ms
 
 @keyframes fly-in
 	0%
@@ -86,10 +89,12 @@ a.email
 	body
 		font-size: 10vw
 
-	main
+	.main
 		padding: 1em
 
-	p:hover, p:focus, p:last-child:hover, p:last-child:focus
-		background: initial
-		padding: initial
-		transform: initial
+	// Removes animations for mobile. Sadface.
+	.first-paragraph, .second-paragraph
+		&:hover, &:focus
+			background: initial
+			padding: initial
+			transform: initial

@@ -31,9 +31,8 @@ html
 		include partials/_google-analytics
 
 	body
-		.left
-		main#back
-			p.fly-in
+		main#back.main
+			p.first-paragraph.fly-in
 				a.resume(href="/resume" title="Resume slash portfolio page") Anthony Craig 
 				| is 
 				br
@@ -48,7 +47,8 @@ html
 				| and an occasional 
 				a.blog(href="http://theoveranalyzed.net" title="My blog") blogger
 				| .
-			p.fly-in You can follow his 
+
+			p.second-paragraph.fly-in.delay You can follow his 
 				a.twitter(href="https://twitter.com/toniwonkanobi" title="Me on Twitter") tweets
 				| ,
 				br
