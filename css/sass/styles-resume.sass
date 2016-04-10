@@ -5,50 +5,26 @@ $front: lighten(black, 20%)
 body
 	background: $back
 	color: white
+	display: flex
+	flex-direction: column
 	font-family: "Whitney SSm A", "Whitney SSm B", "Avenir Next", sans-serif
-	font-size: 110%
-	font-weight: 400
-	margin: 0 auto
-	max-width: 800px
-	width: 90%
-
-.main
-	margin-top: 0
-	margin-bottom: 2em
-	background: $middle
-
-b
-	font-weight: 700
+	font-size: 115%
+	font-weight: 300
+	justify-content: center
+	margin: 0
+	min-height: 100vh
+	min-width: 100vw
 
 h2
-	font-size: 250%
+	font-size: 200%
 	font-weight: 800
 	margin: auto
 
+.arrow
+	display: inline-block
+
 p
 	line-height: 1.6
-
-ul
-	padding-left: 1.25em
-	margin-bottom: 1em
-
-li
-	list-style-type: square
-	margin: 0.5em auto 0.5em auto
-	padding-left: 0.5em
-	line-height: 1.6
-
-	&:hover, &:focus
-		// animation: spin 1s infinite
-
-	&:hover span.caveat, &:focus span.caveat
-		height: auto
-		opacity: 1
-
-.caveat
-	height: 0
-	opacity: 0
-	transition: opacity 200ms ease-in-out
 
 a
 	color: inherit
@@ -60,43 +36,24 @@ a
 	&:hover, &:focus
 		border-bottom: 0.1em solid white
 
-.group
-	border-bottom: 0.5em solid gray
-	padding: 2em
+.works
+	padding: 2.5em
 	transition: background 300ms ease-in-out, transform 150ms ease-in-out
 	background: $middle
 	color: white
+	border: 2em solid darken(white, 15%)
+	box-sizing: border-box
+	margin: auto
+	max-width: 750px
+	width: 90%
 
 	&:hover, &:focus
 		transform: scale(1.1)
 		background: $front
-		color: white
-		border: none
-		margin-top: 2em
-		margin-bottom: 2em
-
-		// This was key because border growing was janky
-		outline: 1em solid white
+		border-color: white
 
 		.arrow
 			animation: rotate 3s infinite
-
-.works
-	&:hover, &:focus
-		margin-top: 4em
-		margin-bottom: 4em
-
-.skills
-	&:hover, &:focus
-		margin-bottom: 6rem
-
-	h2
-		span.arrow
-			display: inline-block
-
-.education
-	&:hover, &:focus
-		margin-bottom: 6rem
 
 .example
 	align-items: center
@@ -145,25 +102,20 @@ a
 	body
 		font-size: 120%
 
-	section
-		h2
-			font-size: 12vw
+	h2
+		font-size: 10vw
 
-		// I have to explicitly call out each child because I was more specific in the regular stylesheet
-		&:nth-child(1), &:nth-child(2), &:nth-child(3)
-			&:hover, &:focus
-				margin: auto
+	.works
+		padding: 1.5em
+		border: none
+		width: calc(100% - 3em)
 
 		&:hover, &:focus
-			transform: initial
-			outline: initial
-			border: initial
-			background: iniital
+			transform: none
 
-		.example
-			display: initial
+	.example
+		display: initial
 
-			img, p
-				filter: none
-				margin: 1em auto
-				width: 100%
+		img, p
+			margin: 1em auto
+			width: 100%
