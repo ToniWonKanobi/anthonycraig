@@ -16,9 +16,10 @@ body
 	min-width: 100vw
 
 h2
-	font-size: 200%
+	font-size: 400%
 	font-weight: 800
-	margin: auto
+	margin: 0.5em auto 1em
+	text-align: center
 
 .arrow
 	display: inline-block
@@ -37,18 +38,18 @@ a
 		border-bottom: 0.1em solid white
 
 .projects
-	padding: 2.5em
+	padding: 2em
 	transition: background 300ms ease-in-out, transform 150ms ease-in-out
 	background: $middle
 	color: white
-	border: 2em solid darken(white, 15%)
+	border: 1.5em solid darken(white, 15%)
 	box-sizing: border-box
 	margin: auto
-	max-width: 750px
+	max-width: 900px
 	width: 90%
 
 	&:hover, &:focus
-		transform: scale(1.1)
+		// transform: scale(1.1)
 		background: $front
 		border-color: white
 
@@ -61,18 +62,33 @@ a
 	justify-content: space-between
 	margin: 2em 0
 
+	&:nth-child(odd)
+		p
+			order: 1
+		a
+			order: 2
+
 	// Removes boder from links that have the screenshots
 	> a
 		border-bottom: none
 		width: 45%
 
 	.screenshot
-		// Prevents overloading on desktop and mobile
-		max-width: 100%
+		object-fit: cover
+		height: 300px
+		width: 100%
 
 	p
-		margin: 0
 		width: 50%
+
+	*:not(a)
+		transition: transform 200ms ease-in-out
+
+		&:hover, &:focus
+			transform: translateX(0.25em)
+
+	&:last-child
+		margin-bottom: 0
 
 .back-message
 	margin-bottom: 0
@@ -98,24 +114,30 @@ a
 	to
 		opacity: 1
 
+code
+	background: gray
+	border-radius: 0.25em
+	font-family: Menlo, monospace
+	font-size: 85%
+	padding: 0.15em 0.25em
+
 @media (max-width: 740px)
 	body
 		font-size: 120%
 
 	h2
-		font-size: 10vw
+		font-size: 12vw
+		margin: auto
+		padding: 1em
 
-	.works
-		padding: 1.5em
-		border: none
-		width: calc(100% - 3em)
-
-		&:hover, &:focus
-			transform: none
+	.projects
+		padding: initial
+		border: initial
+		width: 100%
 
 	.example
 		display: initial
 
-		img, p
-			margin: 1em auto
-			width: 100%
+		p
+			padding: 1em
+			width: calc(100% - 2em)
