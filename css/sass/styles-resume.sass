@@ -67,6 +67,7 @@ a
 	&:nth-child(odd)
 		p
 			order: 1
+			text-align: right
 		a
 			order: 2
 
@@ -96,7 +97,7 @@ a
 	&:hover, &:focus
 		background: lighten($front, 10%)
 		border-radius: 0.5em
-		padding: 1.5em
+		padding: 2em
 
 .back-message
 	margin-bottom: 0
@@ -146,6 +147,18 @@ code
 	.example
 		display: initial
 
+		&:hover, &:focus
+			background: inherit
+			border-radius: 0
+			padding: inherit
+
 		p
 			padding: 1em
 			width: calc(100% - 2em)
+
+		.screenshot
+			border-radius: 0
+
+		&:nth-child(odd)
+			p
+				text-align: initial
