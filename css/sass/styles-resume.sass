@@ -15,14 +15,42 @@ body
 	min-height: 100vh
 	min-width: 100vw
 
-h2
-	font-size: 400%
+header
+	min-height: 100vh
+	display: flex
+	flex-direction: column
+	align-items: center
+	justify-content: center
+
+h1
+	font-size: 5vw
 	font-weight: 800
-	margin: 0.5em auto 1em
-	text-align: center
+	margin: 0
 
 .arrow
-	display: inline-block
+	height: 0
+	width: 0
+	margin: 2vw auto
+
+	// So, borders are triangle spaces, because who knows
+	// border-left: 2vw solid transparent
+	// border-right: 2vw solid transparent
+	// border-top: 2vw solid white
+	border: 1.5vw solid white
+	border-radius: 1.5vw
+
+	// Bouncing
+	animation: bounce 1.75s ease-in-out infinite
+	transition: border 150ms ease-in-out, transform 300ms ease-in
+
+	// Spinning
+	&:hover, &:focus
+		border-left: 2vw solid transparent
+		border-right: 2vw solid transparent
+		border-top: 4vw solid darken(white,5%)
+		border-bottom: 0
+		border-radius: 0
+		transform: rotateZ(360deg)
 
 p
 	line-height: 1.6
@@ -37,91 +65,35 @@ a
 	&:hover, &:focus
 		border-bottom: 0.1em solid white
 
-.projects
-	padding: 2em
-	transition: background 300ms ease-in-out, transform 150ms ease-in-out
-	background: $middle
-	color: white
-	border: 2em solid darken(white, 15%)
-	box-sizing: border-box
-	border-radius: 0.5em
-	margin: auto
-	max-width: 900px
-	width: 90%
+.resume, .example-screenshot-container, .arrow-container
+	border-bottom: none
 
 	&:hover, &:focus
-		// transform: scale(1.1)
-		background: $front
-		border-color: white
-
-		.arrow
-			animation: rotate 3s infinite
+		border-bottom: none
 
 .example
-	align-items: center
-	display: flex
-	justify-content: space-between
-	margin: 2em 0
 	transition: all 250ms ease-in-out
+	min-height: 100vh
+	display: flex
+	align-items: center
+	justify-content: flex-start
+	flex-direction: column
+	background: $middle
+	color: white
+	margin: auto
+	max-width: 600px
 
-	&:nth-child(odd)
-		p
-			order: 1
-			text-align: right
-		a
-			order: 2
+.example-screenshot
+	width: 100vw
+	margin-left: calc((100vw - 100%) / -2)
 
-	// Removes boder from links that have the screenshots
-	> a
-		border-bottom: none
-		width: 45%
-
-	.screenshot
-		border-radius: 0.5em
-		object-fit: cover
-		height: 300px
-		width: 100%
-
-	p
-		width: 50%
-
-	*:not(a)
-		transition: transform 200ms ease-in-out
-
-		&:hover, &:focus
-			transform: translateX(0.25em)
-
-	&:last-child
-		margin-bottom: 0
-
-	&:hover, &:focus
-		background: lighten($front, 10%)
-		border-radius: 0.5em
-		padding: 2em
+.example-text
+	padding: 0 2em 0 2em
 
 .back-message
 	margin-bottom: 0
 	padding: 0 0 2em 0
 	text-align: center
-
-// The arrow on the h2's
-@keyframes rotate
-	0%
-		transform: rotateX(0deg)
-	50%
-		transform: rotateX(180deg)
-	100%
-		transform: rotateX(0deg)
-
-// Whole page dissolves in
-.dissolve
-	animation: dissolve 2s ease
-
-@keyframes dissolve
-	from
-		opacity: 0
-	to
-		opacity: 1
 
 code
 	background: gray
@@ -130,36 +102,31 @@ code
 	font-size: 85%
 	padding: 0.15em 0.25em
 
+@media (min-width: 1000px)
+	.example-screenshot
+		object-fit: cover
+		max-height: 50vh
+		width: 120%
+		margin-left: -10%
+
 @media (max-width: 740px)
 	body
 		font-size: 120%
 
-	h2
+	h1
 		font-size: 12vw
-		margin: auto
-		padding: 1em
 
-	.projects
-		padding: initial
-		border: initial
-		border-radius: initial
-		width: 100%
+	.arrow
+		margin: 5vw
+		border: 4vw solid white
+		border-radius: 5vw
 
-	.example
-		display: initial
-
+		// Spinning
 		&:hover, &:focus
-			background: inherit
-			border-radius: 0
-			padding: inherit
+			border-left: 4vw solid transparent
+			border-right: 4vw solid transparent
+			border-top: 8vw solid darken(white,5%)
 
-		p
-			padding: 1em
-			width: calc(100% - 2em)
-
-		.screenshot
-			border-radius: 0
-
-		&:nth-child(odd)
-			p
-				text-align: initial
+	.example-screenshot
+		min-height: 50vh
+		object-fit: cover

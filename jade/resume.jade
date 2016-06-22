@@ -25,45 +25,53 @@ html
 		// Stylesheets
 		link(rel="stylesheet" type="text/css" href="css/styles-resume.css")
 		link(rel="stylesheet" type="text/css" href="//cloud.typography.com/7099154/6654952/css/fonts.css")
+		link(rel="stylesheet" type="text/css" href="bower_components/animate.css/animate.min.css")
+
+		// WOW.js Animations
+		script(src="bower_components/wow/dist/wow.min.js")
+		script new WOW().init();
 
 		// Google Analytics
 		include partials/_google-analytics
 
 	body
+		header.wow.bounceIn(data-wow-duration="1s")
+			h1
+				a.resume(href="/resumef" title="Resume page") Projects
+			a.arrow-container(href="#projects" title="View projects")
+				.arrow
+
 		main
-			section.projects.dissolve
-				h2
-					span.arrow »
-					|  Projects
+			section#projects
 				#anthonycraigme.example
-					a(href="http://anthonycraig.me" title="Link to my personal website")
-						img.screenshot(src="/img/acme.jpg" alt="My personal website" title="My personal website")
-					p I used bright colors for my personal 
+					a.example-screenshot-container(href="http://anthonycraig.me" title="Link to my personal website")
+						img.example-screenshot.wow.rubberBand(data-wow-offset="10" src="/img/acme.jpg" alt="My personal website" title="My personal website")
+					p.example-text.wow.fadeInUp I used bright colors for my personal 
 						a(href="http://anthonycraig.me" title="Allison's website") website
 						|  to evoke a sense of playfulness. I used lots of <code>display: flex;</code> in order to vertically and horizontally center the content containers. And, as usual, there's plenty of fun animations.
 
 				#allisoncraigddscom.example
-					a(href="http://allisoncraigdds.com" title="Link to Allison's dental website")
-						img.screenshot(src="/img/acdds-screenshot-2.jpg" alt="Allison's dental website" title="Allison's dental website")
-					p My second dental 
+					a.example-screenshot-container(href="http://allisoncraigdds.com" title="Link to Allison's dental website")
+						img.example-screenshot.wow.rubberBand(src="/img/acdds-screenshot-2.jpg" alt="Allison's dental website" title="Allison's dental website")
+					p.example-text.wow.fadeInUp My second dental 
 						a(href="http://allisoncraigdds.com" title="Allison's dental website") website
 						|  is quirky and cutesy. The skeumorphic touches were meant to evoke a sense of &#8220;old soul.&#8221; This design is unabashedly 
 						a(href="http://autumnsoul.net" title="Allison's website") Allison
 						| . I'm not terribly fond of using <code>background: linear-gradient();</code>, but it adds a sense of modernity without upsetting the skeumorphic notions.
 
 				#anthonycraigddscom.example
-					a(href="http://anthonycraigdds.com" title="Link to my dental website")
-						img.screenshot(src="/img/acdds-screenshot.jpg"  alt="Screenshot of my dental website" title="Anthony Craig, DDS")
-					p I wanted my dental 
+					a.example-screenshot-container(href="http://anthonycraigdds.com" title="Link to my dental website")
+						img.example-screenshot.wow.rubberBand(src="/img/acdds-screenshot.jpg"  alt="Screenshot of my dental website" title="Anthony Craig, DDS")
+					p.example-text.wow.fadeInUp I wanted my dental 
 						a(href="http://anthonycraigdds.com" title="Link to my dental website") website
 						|  to be unconventional. You know&mdash;devoid of tooth glyphs and corny stock images of people with bleached teeth. The contrasting bands of color were inspired by the 
 						a(href="https://en.wikipedia.org/wiki/ROYGBIV" title="Wikipedia: ROYGBIV") visible light
 						|  spectrum. Nerd first, dentist second.
 
 				#theoveranalyzednet.example
-					a(href="http://theoveranalyzed.net" title="Link to TheOverAnalyzed")
-						img.screenshot(src="/img/toa-screenshot.jpg" alt="Screenshot of my blog" title="TheOverAnalyzed")
-					p This 
+					a.example-screenshot-container(href="http://theoveranalyzed.net" title="Link to TheOverAnalyzed")
+						img.example-screenshot.wow.rubberBand(src="/img/toa-screenshot.jpg" alt="Screenshot of my blog" title="TheOverAnalyzed")
+					p.example-text.wow.fadeInUp This 
 						a(href="http://theoveranalyzed.net" title="Link to my blog") blog
 						|  was my first from-scratch design. Naturally, the logo was inspired by my favorite 
 						a(href="https://twitter.com/smokeythedingo" title="Smokey on Twitter") four-legged companion
@@ -72,4 +80,4 @@ html
 						| .
 
 		footer.footer
-			p#backhome.back-message: a(href="/#back" rel=index title="Back to the homepage") Back to the frontpage
+			p#backhome.back-message.wow.tada(data-wow-delay="1s"): a(href="/#back" rel=index title="Back to the homepage") Back to the frontpage

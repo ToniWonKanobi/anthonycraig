@@ -25,13 +25,18 @@ html
 		// Stylesheets
 		link(rel="stylesheet" type="text/css" href="css/styles.css")
 		link(rel="stylesheet" type="text/css" href="//cloud.typography.com/7099154/6654952/css/fonts.css")
+		link(rel="stylesheet" type="text/css" href="bower_components/animate.css/animate.min.css")
+		
+		// WOW.js Animations
+		script(src="bower_components/wow/dist/wow.min.js")
+		script new WOW().init();
 
 		// Google Analytics
 		include partials/_google-analytics
 
 	body
-		main#back.main
-			p.first-paragraph.fly-in
+		main#back.main.wow.flipInY
+			p.first-paragraph
 				a.resume(href="/resume" title="Resume slash portfolio page") Anthony Craig 
 				| is 
 				br
@@ -47,7 +52,7 @@ html
 				a.blog(href="http://theoveranalyzed.net" title="My blog") blogger
 				| .
 
-			p.second-paragraph.fly-in.delay You can follow his 
+			p.second-paragraph You can follow his 
 				a.twitter(href="https://twitter.com/toniwonkanobi" title="Me on Twitter") tweets
 				| ,
 				br
