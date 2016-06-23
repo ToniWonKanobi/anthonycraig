@@ -73,7 +73,8 @@ a
 
 .example
 	transition: all 250ms ease-in-out
-	min-height: 100vh
+	// Chose 101vh instead of 100 vh so that when users click the arrow from the header, they don't accidentally see the bouncy-ness of the next thing down the page
+	min-height: 101vh
 	display: flex
 	align-items: center
 	justify-content: flex-start
