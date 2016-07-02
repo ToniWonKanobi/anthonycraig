@@ -40,17 +40,19 @@ h1
 	border-radius: 1.5vw
 
 	// Bouncing
-	animation: bounce 1.75s ease-in-out infinite
+	animation: flash 4s ease-in-out infinite
+	animation-delay: 1s
 	transition: border 150ms ease-in-out, transform 300ms ease-in
 
 	// Spinning
 	&:hover, &:focus
 		border-left: 2vw solid transparent
 		border-right: 2vw solid transparent
-		border-top: 4vw solid darken(white,5%)
+		border-top: 4vw solid
 		border-bottom: 0
 		border-radius: 0
 		transform: rotateZ(360deg)
+		animation-name: pulse
 
 p
 	line-height: 1.6
@@ -106,6 +108,7 @@ code
 @media (min-width: 1000px)
 	.example-screenshot
 		object-fit: cover
+		object-position: 0 50%
 		max-height: 50vh
 		width: 120%
 		margin-left: -10%
