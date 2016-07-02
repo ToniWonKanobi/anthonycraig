@@ -374,13 +374,35 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/allisoncraigdds.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 430077,
+		"inputAbbreviatedPath": "\/img\/allisoncraigdds.png",
+		"outputAbbreviatedPath": "\/img\/allisoncraigdds.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/anthonycraig.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 136266,
+		"initialSize": 209508,
 		"inputAbbreviatedPath": "\/img\/anthonycraig.jpg",
 		"outputAbbreviatedPath": "\/img\/anthonycraig.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/anthonycraig.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 369849,
+		"inputAbbreviatedPath": "\/img\/anthonycraig.png",
+		"outputAbbreviatedPath": "\/img\/anthonycraig.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -392,6 +414,17 @@
 		"initialSize": 63472,
 		"inputAbbreviatedPath": "\/img\/anthonycraigdds.jpg",
 		"outputAbbreviatedPath": "\/img\/anthonycraigdds.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/anthonycraigdds.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 517360,
+		"inputAbbreviatedPath": "\/img\/anthonycraigdds.png",
+		"outputAbbreviatedPath": "\/img\/anthonycraigdds.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -425,6 +458,17 @@
 		"initialSize": 127681,
 		"inputAbbreviatedPath": "\/img\/theoveranalyzed.jpg",
 		"outputAbbreviatedPath": "\/img\/theoveranalyzed.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/theoveranalyzed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 287180,
+		"inputAbbreviatedPath": "\/img\/theoveranalyzed.png",
+		"outputAbbreviatedPath": "\/img\/theoveranalyzed.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
