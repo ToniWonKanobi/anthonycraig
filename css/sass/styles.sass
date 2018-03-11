@@ -11,7 +11,7 @@ body
 	background: cornflowerblue
 	color: white
 	display: flex
-	font-family: "Whitney SSm A", "Whitney SSm B", "Avenir Next", sans-serif
+	font-family: "Whitney SSm A", "Whitney SSm B", "Avenir", sans-serif
 	font-size: 6vw
 	font-weight: 800
 	// If i wanted to center it ...
@@ -97,10 +97,11 @@ a.email
 	&:hover, &:focus
 		color: lighten($email, 15%)
 
-// Should work, but doesn't. Sigh.
+// This should work, but it doesn't really. May have to do with specificity
+// I'm trying to make it so that when the user navigates back to the homepage, it doesn't do the fancy animation, and instead goes to the more mundane fadeIn one
 \:target
 	.zoomInUp
-		animation-name: fadeIn
+		animation: fadeIn
 
 @media (max-width: 740px)
 	body
