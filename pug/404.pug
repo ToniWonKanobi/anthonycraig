@@ -1,0 +1,46 @@
+doctype
+html.toni
+  head
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    meta(name="description" content="You're lost.")
+    title Anthony Craig
+    link(rel="index" href="/" title="Anthony Craig")
+    include partials/_favicons
+
+    //- Open Graph and Twitter Cards
+    meta(property="og:locale" content="en_US")
+    meta(property="og:site_name" content="Anthony Craig")
+    meta(property="og:type" content="website")
+    meta(property="og:title" content="Anthony Craig")
+    meta(property="article:author" content="https://www.facebook.com/toniwonkanobi")
+    meta(property="og:description" content="You're lost.")
+    meta(property="og:image" content="/img/anthonycraig.jpg")
+    meta(name="twitter:site" content="@toniwonkanobi")
+    meta(name="twitter:creator" content="@toniwonkanobi")
+    meta(name="twitter:title" content="Anthony Craig")
+    meta(name="twitter:card" content="summary")
+    meta(name="twitter:description" content="You're lost.")
+    meta(name="twitter:image" content="/img/anthonycraig.jpg")
+
+    //- Stylesheets
+    link(rel="stylesheet" type="text/css" href="css/styles-404.css")
+
+    //- Google Analytics
+    include partials/_google-analytics
+  
+  body
+    main.main
+      h2.site-title anthonycraig.me
+      p.message  A fatal exception ac.me has occurred at SIGH:8675309
+        br
+        | the current web request has be terminated.
+
+      ul.tips
+        li.tip Pressing any key will do nothing for your current web request
+        li.tip Don't press CTRL+ALT+DELETE unless you use a Windows machine, in which case you're screwed anyways
+      
+      p.back-message Go 
+        //- The `\#back` hash is targeted with `:target` in the CSS so I can disable animations on the homepage when people get back there for whatever reason
+        a(href="/#back" rel=index title="Homepage") here
+        |  to return to normalcy

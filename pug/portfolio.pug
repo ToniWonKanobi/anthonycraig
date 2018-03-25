@@ -1,0 +1,72 @@
+doctype
+html.toni
+  head
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    meta(name="description" content="This is what I've worked on")
+    title Anthony Craig's Portfolio
+    include partials/_favicons
+
+    //- Open Graph and Twitter Cards
+    meta(property="og:locale" content="en_US")
+    meta(property="og:site_name" content="Anthony Craig")
+    meta(property="og:type" content="website")
+    meta(property="og:title" content="Anthony Craig")
+    meta(property="article:author" content="https://www.facebook.com/toniwonkanobi")
+    meta(property="og:description" content="This is what I've worked on.")
+    meta(property="og:image" content="/img/anthonycraig.jpg")
+    meta(name="twitter:site" content="@toniwonkanobi")
+    meta(name="twitter:creator" content="@toniwonkanobi")
+    meta(name="twitter:title" content="Anthony Craig")
+    meta(name="twitter:card" content="summary")
+    meta(name="twitter:description" content="This is what I've worked on.")
+    meta(name="twitter:image" content="/img/anthonycraig.jpg")
+
+    //- Stylesheets
+    link(rel="stylesheet" type="text/css" href="css/styles-portfolio.css")
+    link(rel="stylesheet" type="text/css" href="//cloud.typography.com/7099154/6654952/css/fonts.css")
+    link(rel="stylesheet" type="text/css" href="bower_components/animate.css/animate.min.css")
+
+    //- WOW.js Animations
+    script(src="bower_components/wow/dist/wow.min.js")
+    script new WOW().init();
+
+    // Google Analytics
+    include partials/_google-analytics
+
+  body
+    header.wow.bounceIn(data-wow-duration="1s")
+      h1
+        a.resume(href="/portfolio" title="Resume page") Projects
+      a.arrow-container(href="#projects" title="View projects")
+        .arrow
+
+    main
+      section#projects
+        #smokeythedingodog.example
+          a.example-screenshot-container(href="http://smokeythedingo.dog" title="Link to the website of the world's best dog, Smokey")
+            img.example-screenshot.wow.rubberBand(data-wow-offset="10" src="/img/smokeythedingo.jpg" alt="Smokey's personal website" title="My personal website")
+          p.example-text.wow.fadeInUp Just like in this portfolio page, I used a lot of gray in Smokey's <a href="http://smokeythedingo.dog" title="Smokey's website">website</a> because I wanted him to be the shining star 🌟 <br> It's pretty lightweight page overall, because the animations are just vanilla CSS3 (compiled from SCSS). I even <del>remembered how to use</del> discovered the <code>box-sizing</code> CSS property! 😆
+        #anthonycraigme.example
+          a.example-screenshot-container(href="http://anthonycraig.me" title="Link to my personal website")
+            img.example-screenshot.wow.rubberBand(data-wow-offset="10" src="/img/anthonycraig.jpg" alt="My personal website" title="My personal website")
+          p.example-text.wow.fadeInUp [You've seen this one already 😅] As you can see, I used bright colors for my personal <a href="http://anthonycraig.me" title="My personal website">website</a>. I think it evokes a sense of playfulness. There's lots of <code>display: flex;</code> in order to easily center the body copy in their content containers. Also, I threw in plenty of fun animations to make everything feel alive.
+
+        #allisoncraigddscom.example
+          a.example-screenshot-container(href="http://allisoncraigdds.com" title="Link to Allison's dental website")
+            img.example-screenshot.wow.rubberBand(src="/img/allisoncraigdds.jpg" alt="Allison's dental website" title="Allison's dental website")
+          p.example-text.wow.fadeInUp This is a dental <a href="http://allisoncraigdds.com" title="Allison's dental website">website</a> that's super quirky and cutesy 💁🏻 The skeumorphic touches were meant to evoke a sense of &#8220;old soul.&#8221; This design is unabashedly <a href="http://autumnsoul.net" title="Allison's website">Allison</a>. I'm not terribly fond of using <code>background: linear-gradient();</code>, but it adds a sense of modernity without upsetting the site's inherent skeumorphic notions.
+
+        #anthonycraigddscom.example
+          a.example-screenshot-container(href="http://anthonycraigdds.com" title="Link to my dental website")
+            img.example-screenshot.wow.rubberBand(src="/img/anthonycraigdds.jpg"  alt="Screenshot of my dental website" title="Anthony Craig, DDS")
+          p.example-text.wow.fadeInUp I wanted my dental <a href="http://anthonycraigdds.com" title="Link to my dental website">website</a> to be unconventional. You know&mdash;devoid of tooth glyphs and corny stock images of people with super white teeth (though there's nothing wrong with white teeth!). The contrasting bands of color were inspired by the <a href="https://en.wikipedia.org/wiki/ROYGBIV" title="Wikipedia: ROYGBIV"</a>visible light spectrum</a>. Nerd first, dentist second.
+
+        #theoveranalyzednet.example
+          a.example-screenshot-container(href="http://theoveranalyzed.net" title="Link to TheOverAnalyzed")
+            img.example-screenshot.wow.rubberBand(src="/img/theoveranalyzed.jpg" alt="Screenshot of my blog" title="TheOverAnalyzed")
+          p.example-text.wow.fadeInUp This 
+            <a href="http://theoveranalyzed.net" title="Link to my blog">blog</a> was my first from-scratch design. No traditional CMS was used. (Welcome to the static-ish world of the web circa 1997 👴🏿) Naturally, the logo was inspired by my <a href="http://smokeythedingo.dog" title="Smokey on the interwebs">four-legged companion</a>. It's been through several refactor's, mostly as I've picked up new skills like <a href="https://nodejs.org/" title="Node.js">Node.js</a>, <a href="http://sass-lang.com" title="Sass">Sass</a>, and <a href="http://jade-lang.com" title="Jade"><del>Jade</del></a> <a href="http://pugjs.org" title="Link to the Pug homepage">Pug</a>.
+
+    footer.footer
+      p#backhome.back-message.wow.tada(data-wow-delay="1s"): a(href="/#back" rel=index title="Back to the homepage") Back to the frontpage
