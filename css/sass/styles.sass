@@ -7,112 +7,111 @@ $instagram: darken(saddlebrown, 5%)
 $email: darken(yellow, 5%)
 
 body
-	align-items: center
-	background: cornflowerblue
-	color: white
-	display: flex
-	font-family: "Whitney SSm A", "Whitney SSm B", "Avenir", sans-serif
-	font-size: 6vw
-	font-weight: 800
-	// If i wanted to center it ...
-	// justify-content: center
-	line-height: 1.1
-	margin: 0
-	min-height: 100vh
-	min-width: 100vw
+  align-items: center
+  background: cornflowerblue
+  color: white
+  display: flex
+  font-family: "Whitney SSm A", "Whitney SSm B", "Avenir", sans-serif
+  font-size: 6vw
+  font-weight: 800
+  // If i wanted to center it ...
+  // justify-content: center
+  line-height: 1.1
+  margin: 0
+  min-height: 100vh
+  min-width: 100vw
 
 .main
-	margin: 0
-	padding: 0.5em 1em
+  margin: 0
+  padding: 0.5em 1em
 
 p
-	display: inline-block
-	margin: 0
-	transition: all 200ms ease-in-out
+  display: inline-block
+  margin: 0
+  transition: all 200ms ease-in-out
 
-	&:hover, &:focus
-		background: lighten(black,20%)
-		padding: 0.5em
+  &:hover, &:focus
+    background: lighten(black,20%)
+    padding: 0.5em
 
 .first-paragraph
-	&:hover, &:focus
-		transform: scale(1.05) rotate(2deg) translateY(2rem)
+  &:hover, &:focus
+    transform: scale(1.05) rotate(2deg) translateY(2rem)
 
 .second-paragraph
-	margin-top: 0.75em
+  margin-top: 0.75em
 
-	&:hover, &:focus
-		transform: scale(1.05) rotate(-2deg) translateY(-2rem)
+  &:hover, &:focus
+    transform: scale(1.05) rotate(-2deg) translateY(-2rem)
 
 a
-	text-decoration: none
-	color: white
-	transition: all 300ms ease-in-out
+  text-decoration: none
+  color: white
+  transition: all 300ms ease-in-out
 
 a.resume
-	color: $resume
+  color: $resume
 
-	&:hover, &:focus
-		color: lighten($resume, 15%)
+  &:hover, &:focus
+    color: lighten($resume, 15%)
 
 a.dental
-	color: $dental
+  color: $dental
 
-	&:hover, &:focus
-		color: lighten($dental, 15%)
+  &:hover, &:focus
+    color: lighten($dental, 15%)
 
 a.github
-	color: $github
+  color: $github
 
-	&:hover, &:focus
-		color: lighten($github, 15%)
+  &:hover, &:focus
+    color: lighten($github, 15%)
 
 a.oxford-comma
-	display: inline-block
+  display: inline-block
 
-	&:hover, &:focus
-		color: gold
+  &:hover, &:focus
+    color: gold
 
 a.blog
-	color: $blog
+  color: $blog
 
-	&:hover, &:focus
-		color: lighten($blog, 15%)
+  &:hover, &:focus
+    color: lighten($blog, 15%)
 
 a.twitter
-	color: $twitter
+  color: $twitter
 
-	&:hover, &:focus
-		color: lighten($twitter, 15%)
+  &:hover, &:focus
+    color: lighten($twitter, 15%)
 
 a.instagram
-	color: $instagram
+  color: $instagram
 
-	&:hover, &:focus
-		color: lighten($instagram, 15%)
+  &:hover, &:focus
+    color: lighten($instagram, 15%)
 
 a.email
-	color: $email
+  color: $email
 
-	&:hover, &:focus
-		color: lighten($email, 15%)
+  &:hover, &:focus
+    color: lighten($email, 15%)
 
-// This should work, but it doesn't really. May have to do with specificity
 // I'm trying to make it so that when the user navigates back to the homepage, it doesn't do the fancy animation, and instead goes to the more mundane fadeIn one
 \:target
-	.zoomInUp
-		animation: fadeIn
+  .zoomInUp
+    animation: fadeIn
 
 @media (max-width: 740px)
-	body
-		font-size: 15vw
+  body
+    font-size: 15vw
 
-	.main
-		padding: 0.5em
+  .main
+    padding: 0.5em
 
-	// Removes animations for mobile. Sadface.
-	.first-paragraph, .second-paragraph
-		&:hover, &:focus
-			background: initial
-			padding: initial
-			transform: initial
+  // Removes animations for mobile. Sadface.
+  .first-paragraph, .second-paragraph
+    &:hover, &:focus
+      background: initial
+      padding: initial
+      transform: initial
