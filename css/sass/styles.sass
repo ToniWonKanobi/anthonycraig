@@ -23,26 +23,32 @@ body
 
 .main
   margin: 0
-  padding: 0.5em 1em
+  padding: 0.25em
 
 p
   display: inline-block
   margin: 0
+  padding: 0.25em
   transition: all 200ms ease-in-out
+  border-radius: 0.25em
 
   &:hover, &:focus
     background: lighten(black,20%)
-    padding: 0.5em
-
-.first-paragraph
-  &:hover, &:focus
-    transform: scale(1.05) rotate(2deg) translateY(2rem)
+    // padding: 0.5em
 
 .second-paragraph
-  margin-top: 0.75em
+  margin-top: 0.25em
 
-  &:hover, &:focus
-    transform: scale(1.05) rotate(-2deg) translateY(-2rem)
+// I think this is too much
+// .first-paragraph
+//   &:hover, &:focus
+//     transform: scale(1.05) rotate(2deg) translateY(2rem)
+
+// .second-paragraph
+//   margin-top: 0.75em
+
+//   &:hover, &:focus
+//     transform: scale(1.05) rotate(-2deg) translateY(-2rem)
 
 a
   text-decoration: none
