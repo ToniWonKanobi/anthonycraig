@@ -12,7 +12,7 @@ body
   color: white
   display: flex
   font-family: "Whitney SSm A", "Whitney SSm B", "Avenir", sans-serif
-  font-size: 6vw
+  font-size: clamp(16pt, 10vw, 10em)
   font-weight: 800
   // If i wanted to center it ...
   // justify-content: center
@@ -23,7 +23,7 @@ body
 
 .main
   margin: 0
-  padding: 0.25em
+  padding: 0
 
 p
   display: inline-block
@@ -32,9 +32,9 @@ p
   transition: all 200ms ease-in-out
   border-radius: 0.2em
 
-  &:hover, &:focus
-    background: lighten(black,20%)
-    // padding: 0.5em
+  // &:hover, &:focus
+  //   background: lighten(black,20%)
+  //   // padding: 0.5em
 
 .second-paragraph
   margin-top: 0.25em
